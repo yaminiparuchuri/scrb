@@ -1,0 +1,18 @@
+<!-- List of reports for table -->
+
+<table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>District Name</th>
+                </tr>
+              </thead>
+              <tbody id="uploadedStatementsBody">
+              {{#each reports}}
+                <tr>
+                  <td>{{id}}</td>
+                  <td>{{didstrict_name}}</td>
+                </tr>
+              {{/each}}                
+              </tbody>
+</table>

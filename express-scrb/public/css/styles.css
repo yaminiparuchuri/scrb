@@ -1,0 +1,344 @@
+
+
+
+body, .login-bg {
+    background-color: #2D3091;
+}
+.login {
+    float: none;
+    margin:  auto;
+    width: 300px;
+    margin-top: 10%;
+}
+.login > img {
+    float: none;
+    margin: 0 auto;
+    width: 150px;
+}
+.login-input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.login-btn {
+    margin-top: 60px;
+
+}
+.login-input > .form-control {
+    border-radius: 0;
+}
+.btn-green {
+    background-color: #77A80E;
+    color: white;
+    border-radius: 0;
+}
+.btn-green:hover, .btn-green:focus {
+    background-color: #6F9A13;
+    color: white;
+}
+
+.modal-information {
+    background-color: #45B0DB;
+}
+
+
+
+
+
+.bd-margin {
+    margin-top: 120px
+}
+.m-header {
+    color: white;
+    padding: 10px;
+}
+.m-header > div > p, i {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #8a6d3b;
+    padding: 15px 25px;
+    margin: 10px 5px;
+}
+.card-trendline {
+    background-color: #fff;
+    border: 1px solid #8a6d3b;
+    padding: 1px 25px;
+    margin: 10px 5px;
+}
+.card-title {
+    color: #4D5B79;
+    font-weight: bold;
+    font-size: 16px;
+}
+.card-title > i {
+    color: #d3d3d3;
+    margin-top: 4px;
+}
+
+.navbar-inverse {
+    background-color: #2D3091;
+    border-color: #FFFFFF;
+    padding: 20px 0;
+}
+/*.navbar-nav {
+    margin: 20px -15px;
+}*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #CC7B12;
+    padding: 20px 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    padding: 20px 15px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: white;
+    background-color: #5558C5;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: 0;
+}
+.btn-card {
+    color: #4D5B79;
+    background-color: #fff;
+    border-color: #d5d5d5;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 1px;
+}
+
+.d-left > .btn {
+    text-align: left;
+}
+.d-left > .btn > .caret {
+    margin-top: 10px;
+}
+.open > .d-down {
+    width: 100%;
+    margin-top: 55px;
+}
+
+#js-congnizable-report,#js-offence-againest-women,#js-faction-offence,#js-grave-report,#js-non-grave-report,#js-property-report,#js-body-report,#js-property-table,#js-non-grave-table,#js-body-table,#js-grave-table {
+	width		: 100%;
+	height		: 400px;
+	font-size	: 13px;
+}
+#js-congnizable-report-legend{
+  width		: 100%;
+  height		: 400px;
+  font-size	: 13px;
+}
+#js-congnizable-table{
+  width		: 100%;
+	height		: 400px;
+	font-size	: 13px;
+}
+#js-total-crimes-report,#js-total-crimes-table{
+  width		: 100%;
+	height		: 500px;
+	font-size	: 12px;
+}
+
+#js-crime-by-distrct,#js-month-range{
+  width		: 100%;
+	height		: 400px;
+	font-size	: 11px;
+}
+
+#js-report-comparision-top5,#js-report-top5-table,#js-report-comparision-bottom5,#js-report-bottom5-table,#js-report-trendline-table,#js-report-trendline-two,#js-report-trendline-two-table{
+  width		: 100%;
+	height		: 440px;
+	font-size	: 13px;
+}
+#js-report-trendline{
+  width		: 100%;
+	height		: 350px;
+	font-size	: 20px;
+}
+#js-report-trendline-legend{
+  width		: 100%;
+	height		: 500px;
+	font-size	: 20px;
+}
+#js-comparision{
+  width		: 100%;
+	height		: 440px;
+	font-size	: 11px;
+}
+#js-singlerange-singlegroup{
+  width		: 100%;
+	height		: 440px;
+	font-size	: 11px;
+}
+
+#js-crime-by-category{
+  width		: 100%;
+  height		: 820px;
+  font-size	: 11px;
+}
+
+.amcharts-graph-graph2 .amcharts-graph-stroke {
+  stroke-dasharray: 4px 5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  -webkit-animation: am-moving-dashes 1s linear infinite;
+  animation: am-moving-dashes 1s linear infinite;
+}
+
+@-webkit-keyframes am-moving-dashes {
+  100% {
+    stroke-dashoffset: -28px;
+  }
+}
+@keyframes am-moving-dashes {
+  100% {
+    stroke-dashoffset: -28px;
+  }
+}
+
+/*dcrb.html*/
+
+.dcrb-l {
+    background-color: #546679;
+    color: white;
+}
+.dcrb-r {
+    background-color: #FBFBFB;
+}
+.dcrb-logo > h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+.dcrb-logo > h3 > i {
+    color: #51C6F7;
+}
+.p-header {
+    background-color: #45B0DB;
+    padding: 20px 15px;
+}
+.p-header-bars a {
+    margin-top: 10px;
+    padding-top: 0;
+}
+.p-header-title h2 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.p-header-info {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.p-header-info h3 {
+    color: white;
+    font-weight: normal;
+    line-height: 20px;
+}
+.p-header-info h3 small {
+    font-size: 12px;
+    line-height: 10px;
+    color: whitesmoke;
+}
+.p-body-date {
+    padding: 30px 0;
+}
+.p-body-cols {
+    padding: 80px;
+    background-color: white;
+    margin: 0 15px;
+}
+.p-body-rows {
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+}
+.p-body-table {
+    padding: 20px;
+    background-color: white;
+    margin: 0 15px;
+}
+.r-card {
+    height: 150px;
+    background-color: #e5e5e5;
+    padding: 10px 15px;
+    text-align: center;
+}
+.r-card p {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.r-success {
+    background-color: #16A289;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.r-default {
+    background-color: #747474;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.r-danger {
+    background-color: #e05555;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.r-black {
+    background-color: #3F3F3F;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.r-black:hover {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+/*scrb.html*/
+
+.m-reports .btn-group button{
+    border-radius: 0;
+}
+
+.modal-success {
+    background-color: #16A289;
+    color: white;
+    text-align: center;
+}
+.modal-success h4 {
+    font-weight: bolder;
+}
+.modal-success .close {
+    color: white;
+}
+
+
+.modal-default {
+    background-color: #747474;
+    color: white;
+    text-align: center;
+}
+.modal-default h4 {
+    font-weight: bolder;
+}
+.modal-default .close {
+    color: white;
+}
+.js-dropdown-list {
+  padding-left: 35px;
+}
+
+.table-bordered{
+  border:5px solid #DDD !important;
+}

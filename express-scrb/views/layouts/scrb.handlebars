@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>State Crime Record Beaureau</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+  <link rel="stylesheet" href="/css/fine-uploader.css">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.file.downloade.js"></script>
+</head>
+
+<body style="background-color: #f5f5f5;">
+  <div id="wrapper" class="">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li class="sidebar-brand">
+                  <a href="#">
+                      <span><i class="fa fa-spinner"></i> SCRB</span>
+                  </a>
+              </li>
+
+              <li class="sidebar-download active">
+                  <a href="#" data-toggle="collapse" data-target="#upload" class="" aria-expanded="false"><span>Reports Dashboard <i class="fa fa-chevron-down"></i></span></a>
+                  <ul id="upload" class="collapse in" aria-expanded="true">
+                      <li>
+                          <a href="/data/scrb/weekly"><i class="fa fa-chevron-right"></i> Weekly Reports</a>
+                      </li>
+                      <li class="active">
+                          <a href="/data/scrb"><i class="fa fa-chevron-right"></i> Monthly Reports</a>
+                      </li>
+                      <li>
+                          <a href="/data/scrb/quarterly"><i class="fa fa-chevron-right"></i> Quarterly Reports</a>
+                      </li>
+                      <li>
+                          <a href="/data/scrb/yearly"><i class="fa fa-chevron-right"></i> Yearly Reports</a>
+                      </li>
+                  </ul>
+
+                  <a href="#" data-toggle="collapse" data-target="#download" class="" aria-expanded="false"><span>Reports Download <i class="fa fa-chevron-down"></i></span></a>
+                  <ul id="download" class="collapse in" aria-expanded="false">
+                      <!-- <li>
+                          <a href="/data/scrb/download/weekly"><i class="fa fa-chevron-right"></i> Weekly Reports</a>
+                      </li> -->
+                      <li class="">
+                          <a href="/data/scrb/monthly/reports"><i class="fa fa-chevron-right"></i> Monthly Reports</a>
+                      </li>
+                      <li>
+                          <a href="/data/scrb/quarterly/reports"><i class="fa fa-chevron-right"></i> Quarterly Reports</a>
+                      </li>
+                      <li>
+                          <a href="/data/scrb/yearly/reports"><i class="fa fa-chevron-right"></i> Yearly Reports</a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="sidebar-bot ">
+                  <a href="/logout"><span>Logout</span></a>
+              </li>
+          </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+  {{{body}}}
+  <!--- Showing modal when file was downloading - -->
+  <div class="modal fade" id="reportDownload" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header modal-success">
+
+          <h4 class="modal-title" id="myModalLabel">Report generating</h4>
+        </div>
+        <div class="modal-body">
+          <div class="table-responsive">
+           <div id="report-message" >
+             <p class="text-info"> Please wait report download will starts in few seconds </p>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<script src="/js/amcharts.js"></script>
+<!-- <script src="amcharts/plugins/responsive/responsive.min.js" type="text/javascript"></script> -->
+<script src="/js/serial.js"></script>
+<script src="/js/pie.js"></script>
+<script src="/js/light.js"></script>
+<script src="/js/dark.js"></script>
+<script src="/js/black.js"></script>
+<script src="/js/none.js"></script>
+<script src="/js/serb.js"></script>
+<script>
+
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+/******   Dsp scrb monthly reports change events on month ,year ,view ******/
+    $('#js-state-week-report-week').change(function(event){
+      var week=$(event.target).val();
+      var month=$('#js-state-week-month-select').val();
+      var year=$('#js-state-week-quarterly-year-select').val();
+      var view1=$('#js-week-state-weekly-view').val();
+      window.location.pathname='/data/scrb/weekly/'+week+'/'+month+'/'+year+'/'+view1;
+    })
+    $('#js-state-week-month-select').change(function(event){
+      var week=$('#js-state-week-report-week').val();
+      var month=$(event.target).val();
+      var year=$('#js-state-week-quarterly-year-select').val();
+      var view1=$('#js-week-state-weekly-view').val();
+      window.location.pathname='/data/scrb/weekly/'+week+'/'+month+'/'+year+'/'+view1;
+    })
+
+    $('#js-state-week-quarterly-year-select').change(function(event){
+      var week=$('#js-state-week-report-week').val();
+      var month=$('#js-state-week-month-select').val();
+      var year=$(event.target).val();
+      var view1=$('#js-week-state-weekly-view').val();
+      window.location.pathname='/data/scrb/weekly/'+week+'/'+month+'/'+year+'/'+view1;
+    })
+    $('#js-week-state-weekly-view').change(function(event){
+      var week=$('#js-state-week-report-week').val();
+      var month=$('#js-state-week-month-select').val();
+      var year=$('#js-state-week-quarterly-year-select').val();
+      var view1=$(event.target).val();
+      window.location.pathname='/data/scrb/weekly/'+week+'/'+month+'/'+year+'/'+view1;
+    })
+
+    $('#js-state-year-select').change(function(event){
+      var year = $(event.target).val();
+      var month = $('#js-state-month-select').val();
+      var view = $('#js-state-month-view').val();
+      window.location.pathname = '/data/scrb/'+year+'/'+month+'/'+view;
+    });
+
+    $('#js-state-month-select').change(function(event){
+      var month = $(event.target).val();
+      var year = $('#js-state-year-select').val();
+      var view = $('#js-state-month-view').val();
+      window.location.pathname = '/data/scrb/'+year+'/'+month+'/'+view;
+    });
+
+    $('#js-state-month-view').change(function(event){
+      var view = $(event.target).val();
+      var year = $('#js-state-year-select').val();
+      var month = $('#js-state-month-select').val();
+      window.location.pathname = '/data/scrb/'+year+'/'+month+'/'+view;
+    });
+
+/******   Dsp scrb monthly reports change events on month ,year ,view  End ******/
+
+    $('#js-state-quarterly-quarter-select').change(function(event){
+      var quarter = $(event.target).val();
+      var year = $('#js-state-quarterly-year-select').val();
+      var view = $('#js-state-quarterly-view').val();
+
+      window.location.pathname = '/data/scrb/quarterly/'+year+'/'+quarter+'/'+view;
+    });
+
+    $('#js-state-quarterly-year-select').change(function(event){
+      var year = $(event.target).val();
+      var quarter = $('#js-state-quarterly-quarter-select').val();
+      var view = $('#js-state-quarterly-view').val();
+      window.location.pathname = '/data/scrb/quarterly/'+year+'/'+quarter+'/'+view;
+    });
+
+    $('#js-state-quarterly-view').change(function(event){
+      var view = $(event.target).val() || 'report';
+      var year = $('#js-state-quarterly-year-select').val();
+      var quarter = $('#js-state-quarterly-quarter-select').val();
+      window.location.pathname = '/data/scrb/quarterly/'+year+'/'+quarter+'/'+view;
+    });
+
+/***********    Yearly reports change events *************/
+    $('#js-state-yearly-year-select').change(function(event){
+      var year = $(event.target).val();
+      var view = $('#js-yearly-view').val();
+      window.location.pathname = '/data/scrb/yearly/'+year+'/'+view;
+    });
+    $('#js-yearly-view').change(function(event){
+      var year = $('#js-state-yearly-year-select').val();
+      var view = $(event.target).val();
+      window.location.pathname = '/data/scrb/yearly/'+year+'/'+view;
+    });
+/**********    Change events for monthly dscpscrb report moths and years *************/
+    $('#js-month-scrb-download-select').change(function(event){
+      var month = $(event.target).val();
+      var year = $('#js-year-scrb-download-select').val();
+      window.location.pathname = '/data/scrb/monthly/reports/'+year+'/'+month;
+    });
+
+    $('#js-year-scrb-download-select').change(function(event){
+      var year = $(event.target).val();
+      var month = $('#js-month-scrb-download-select').val();
+      window.location.pathname = '/data/scrb/monthly/reports/'+year+'/'+month;
+    })
+/********** End of events in scrb monthly reports downloads *************/
+     $('#js-state-week-report-download').change(function(event){
+      var year = $('#js-year-weekly-scrb-download').val();
+      var month = $('#js-state-week-month-download').val();
+      var week=$(event.target).val();
+      window.location.pathname = '/data/scrb/download/weekly/'+week+'/'+year+'/'+month;
+     });
+     $('#js-state-week-month-download').change(function(event){
+      var year = $('#js-year-weekly-scrb-download').val();
+      var month = $(event.target).val();
+      var week=$('#js-state-week-report-download').val();
+      window.location.pathname = '/data/scrb/download/weekly/'+week+'/'+year+'/'+month;
+     })
+     $('#js-year-weekly-scrb-download').change(function(event){
+      var year = $(event.target).val();
+      var month = $('#js-state-week-month-download').val();
+      var week=$('#js-state-week-report-download').val();
+      window.location.pathname = '/data/scrb/download/weekly/'+week+'/'+year+'/'+month;
+     })
+
+/******  Change events for quarterly dspscrb reports **************/
+
+$('#js-quarter-scrb-download-select').change(function(event){
+  var quarter = $(event.target).val();
+  var year = $('#js-year-quarter-scrb-download-select').val();
+  window.location.pathname = '/data/scrb/quarterly/reports/'+year+'/'+quarter;
+});
+
+$('#js-year-quarter-scrb-download-select').change(function(event){
+  var quarter = $('#js-quarter-scrb-download-select').val();
+  var year = $(event.target).val();
+  window.location.pathname = '/data/scrb/quarterly/reports/'+year+'/'+quarter;
+})
+
+/******  End of events in dspscrb quarterly reports **************/
+
+/******  Change events for yearly dspscrb reports   **************/
+$('#js-yearly-scrb-download-select').change(function(event){
+  var year = $(event.target).val();
+  window.location.pathname = '/data/scrb/yearly/reports/'+year;
+});
+/******  End of evnets for yearly dspscrb reports   **************/
+
+function getDcrbMonthlyReportsDownload(year,month,report_id){
+  $.ajax({
+    method:'POST',
+    url:'/data/scrb/dcrb/download',
+    data:{
+      year:year,
+      month:month,
+      report:report_id,
+      status:9
+    }
+  })
+  .done(function(result){
+      $('#reportsList').html(result);
+  })
+  .fail(function(err){
+    console.log(err);
+  });
+}
+
+function getDcrbNotUploadedDistricts(year,month,report_id,week){
+  $.ajax({
+    method:'POST',
+    url:'/data/scrb/dcrb/download',
+    data:{
+      year:year,
+      month:month,
+      report:report_id,
+      week:week,
+      status:0
+    }
+  })
+  .done(function(result){
+      $('#districtsList').html(result);
+  })
+  .fail(function(err){
+    console.log(err);
+  });
+}
+
+    $('#reports-success').on('show.bs.modal',function(e){
+      var month = $('#js-state-month-select').val();
+      var year = $('#js-state-year-select').val();
+      getDcrbMonthlyReportsDownload(year,month,$(e.relatedTarget).data('report'));
+    });
+
+    $('#reports-success').on('hide.bs.modal',function(e){
+      window.location.reload();
+      $('#reportsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+function getDcrbQuarterlyReportsDownload(year,month,report_id){
+  $.ajax({
+    method:'POST',
+    url:'/data/scrb/dcrb/quarter/download',
+    data:{
+      year:year,
+      month:month,
+      report:report_id
+    }
+  })
+  .done(function(result){
+      $('#reportsList').html(result);
+  })
+  .fail(function(err){
+    console.log(err);
+  });
+}
+
+$('#reports-weekly-success').on('show.bs.modal',function(e){
+  var year = $('#js-state-week-quarterly-year-select').val();
+  var month = $('#js-state-week-month-select').val();
+  var week = $('#js-state-week-report-week').val();
+  var report_id = $(e.relatedTarget).data('report');
+  getDcrbWeeklyReportsDownload(week,month,year,report_id,9);
+});
+
+function getDcrbWeeklyReportsDownload(week,month,year,report_id,status){
+  $.ajax({
+    method:'POST',
+    url:'/data/scrb/dcrb/weekly/download',
+    data:{
+      year:year,
+      week:week,
+      month:month,
+      report:report_id,
+      status:status
+    }
+  })
+  .done(function(result){
+    if(status == 9){
+      $('#reportsList').html(result);
+    }else{
+      $('#districtsList').html(result);
+    }
+  })
+  .fail(function(err) {
+    console.log(err);
+  });
+}
+
+
+
+    $('#reports-quarter-success').on('show.bs.modal',function(e){
+      var year = $('#js-state-quarterly-year-select').val();
+      var month = $('#js-state-quarterly-quarter-select').val();
+      var report_id = $(e.relatedTarget).data('report');
+      getDcrbQuarterlyReportsDownload(year,month,report_id);
+    });
+    $('#reports-quarter-success').on('hide.bs.modal',function(e){
+      $('#reportsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+/**
+* Getting not uploaded districts list modal events
+* for monthly,quarterly,yearly reports
+**/
+    $('#reports-notUploads').on('show.bs.modal',function(e){
+      var month = $('#js-state-month-select').val();
+      var year = $('#js-state-year-select').val();
+      getDcrbNotUploadedDistricts(year,month,$(e.relatedTarget).data('report'));
+    });
+
+    $('#reports-notUploads').on('hide.bs.modal',function(e){
+      window.location.reload();
+      $('#districtsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+
+
+    $('#reports-quarter-notUploads').on('show.bs.modal',function(e){
+      var year = $('#js-state-quarterly-year-select').val();
+      var month = $('#js-state-quarterly-quarter-select').val();
+      var week=null;
+      getDcrbNotUploadedDistricts(year,month,$(e.relatedTarget).data('report'),week);
+
+    });
+
+    $('#reports-weekly-notUploads').on('show.bs.modal',function(e){
+      var year = $('#js-state-week-quarterly-year-select').val();
+      var month = $('#js-state-week-month-select').val();
+      var week = $('#js-state-week-report-week').val();
+      var report_id= $(e.relatedTarget).data('report');
+      getDcrbWeeklyReportsDownload(week,month,year,report_id,0);
+    });
+
+    
+
+    $('#reports-quarter-notUploads').on('hide.bs.modal',function(e){
+      $('#districtsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+    $('#reports-year-notUploads').on('show.bs.modal',function(e){
+      var year = $('#js-state-yearly-year-select').val();
+      var month = 'Annual';
+      var week=null;
+      getDcrbNotUploadedDistricts(year,month,$(e.relatedTarget).data('report'),week);
+    })
+
+    $('#reports-year-notUploads').on('hide.bs.modal',function(e){
+      $('#districtsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+    $('#reports-year-notUploads').on('show.bs.modal',function(e){
+      var week = $('#js-state-week-report-week').val();
+      var month = $('#js-state-week-month-select').val();
+      var year=$('#js-state-week-quarterly-year-select').val();
+      getDcrbNotUploadedDistricts(year,month,$(e.relatedTarget).data('report'),week);
+    })
+
+    $('#reports-year-notUploads').on('hide.bs.modal',function(e){
+      $('#districtsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+/**
+* End of modal events for not uploaded districts
+*/
+
+    $('#reports-year-success').on('show.bs.modal',function(e){
+      var year = $('#js-state-yearly-year-select').val();
+      $.ajax({
+        method:'POST',
+        url:'/data/scrb/dcrb/year/download',
+        data:{
+          year:year,
+          month:'Annual',
+          report:$(e.relatedTarget).data('report')
+        }
+      })
+      .done(function(result){
+          $('#reportsList').html(result);
+      })
+      .fail(function(err){
+        console.log(err);
+      });
+    })
+
+    function downloadReport(path){
+      //Showing popup modal
+      $('#reportDownload').modal({
+       keyboard: false,
+       backdrop:'static'
+      });
+      //file download
+      $.fileDownload(path)
+        .done(function(){
+          /**** Download success  ****/
+          $('#report-message').html('<p class="text-success">Reoprt generted successfully</p>')
+          setTimeout(function(){
+              $('#reportDownload').modal('hide');
+              $('#report-message').html('<p class="text-info"> Please wait report download will starts in few seconds </p>');
+          },2000);
+
+        })
+        .fail(function(){
+          $('#report-message').html('<p class="text-error">Error in report generating .Please try again</p>');
+          setTimeout(function(){
+            $('#reportDownload').modal('hide');
+            $('#report-message').html('<p class="text-info"> Please wait report download will starts in few seconds </p>');
+          },2000);
+        });
+    }
+
+    $('#reports-year-success').on('hide.bs.modal',function(e){
+      $('#reportsList').html('<p class="text-info">Please wait ... </p>');
+    });
+
+
+
+/**
+* Changing the status of the report
+**/
+function changeMonthlyReportStatus(report_id,uploaded_user_id){
+  var year = $('#js-state-year-select').val();
+  var month = $('#js-state-month-select').val();
+//  var reportIds = [1,13,10,11];
+
+  if(!month && !year){
+    month = $('#js-state-quarterly-quarter-select').val();
+    year = $('#js-state-quarterly-year-select').val();
+  }
+
+
+
+  if(confirm('Are you sure want to delete this entry')){
+    $.ajax({
+      method:'POST',
+      url:'/data/revert/monthly/report/status',
+      data:{
+        report_id:report_id,
+        year: year,
+        month:month,
+        uploaded_user_id:uploaded_user_id
+      }
+    })
+    .done(function(result){
+       if(report_id >= 51 && report_id <= 74){
+         getDcrbQuarterlyReportsDownload(year,month,report_id);
+       }else{
+          getDcrbMonthlyReportsDownload(year,month,report_id);
+       }
+
+    })
+    .fail(function(err){
+      alert('Error in status change');
+    });
+  }
+}
+
+/********************    Getting uploaded records list for a district in monthly quarterly and yearly **************/
+
+function getDistrictWiseUploadedReports(district_id,month,year,status,period){
+  $.ajax({
+    url:'/data/scrb/district/reports/list',
+    method:'POST',
+    data:{
+      district_id:district_id,
+      month:month,
+      year:year,
+      status:status,
+      period:period
+    }
+  })
+  .done(function(result){
+    $('#uploadedReportsList').html(result);
+  })
+  .fail(function(error){
+    alert(error);
+  });
+}
+
+$('#district-reports-success').on('show.bs.modal',function(e){
+  var district_id = $(e.relatedTarget).data('district');
+  var month =  $(e.relatedTarget).data('month');
+  var year =  $('#js-state-year-select').val() || $('#js-state-quarterly-year-select').val();
+  var status = $(e.relatedTarget).data('status');
+  var period = $(e.relatedTarget).data('period');
+    getDistrictWiseUploadedReports(district_id,month,year,status,period);
+});
+
+
+
+$('#district-reports-success').on('hide.bs.modal',function(e){
+  $('#uploadedReportsList').html('<p class="text-info">Please wait ... </p>');
+});
+
+
+function getDistrictWiseNotUploadedReports(district_id,month,year,status,period){
+  $.ajax({
+    url:'/data/scrb/district/reports/list',
+    method:'POST',
+    data:{
+      district_id:district_id,
+      month:month,
+      year:year,
+      status:status,
+      period:period
+    }
+  })
+  .done(function(result){
+    $('#notUploadedReportsList').html(result);
+  })
+  .fail(function(error){
+    alert(error);
+  });
+}
+
+$('#district-reports-fail').on('show.bs.modal',function(e){
+  var district_id = $(e.relatedTarget).data('district');
+  var month =  $(e.relatedTarget).data('month');
+  var year =  $('#js-state-year-select').val() || $('#js-state-quarterly-year-select').val();
+  var status = $(e.relatedTarget).data('status');
+  var period = $(e.relatedTarget).data('period');
+    getDistrictWiseNotUploadedReports(district_id,month,year,status,period);
+});
+
+$('#district-reports-fail').on('hide.bs.modal',function(e){
+  $('#notUploadedReportsList').html('<p class="text-info">Please wait ... </p>');
+});
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,79 @@
+<!-- Page Content -->
+  <div id="page-content-wrapper">
+      <div class="container-fluid">
+          <div class="row p-header">
+              <div class="col-sm-1 p-header-bars">
+                  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              <div class="col-sm-9 p-header-title">
+                  <h2>Download SCRB Monthly Reports</h2>
+              </div>
+              <div class="col-sm-2 p-header-info">
+                <h3>
+                    <small><br/>
+                        SCRB
+                    </small>
+                </h3>
+              </div>
+          </div>
+          <div class="container-fluid">
+              <div class="row p-body-date">
+                <div class="col-sm-2">
+                    <select name="month" id="js-month-scrb-download-select" class="form-control">
+                        <option value="1" {{selectedOrNot month 1}} >January</option>
+                          <option value="2" {{selectedOrNot month 2}}>February</option>
+                          <option value="3" {{selectedOrNot month 3}}>March</option>
+                          <option value="4" {{selectedOrNot month 4}}>April</option>
+                          <option value="5" {{selectedOrNot month 5}}>May</option>
+                          <option value="6" {{selectedOrNot month 6}}>June</option>
+                          <option value="7" {{selectedOrNot month 7}}>July</option>
+                          <option value="8" {{selectedOrNot month 8}}>August</option>
+                          <option value="9" {{selectedOrNot month 9}}>September</option>
+                          <option value="10" {{selectedOrNot month 10}}>October</option>
+                          <option value="11" {{selectedOrNot month 11}}>November</option>
+                          <option value="12" {{selectedOrNot month 12}}>December</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <select class="form-control" name="year" id="js-year-scrb-download-select">
+                      {{#each years}}
+                        <option value="{{year}}" {{selected}}>{{year}}</option>
+                      {{/each}}
+                    </select>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-12 p-body-table">
+                      <div class="table-responsive">
+                          <table class="table table-bordered table-striped">
+                              <thead>
+                              <tr>
+                                  <th>S.NO</th>
+                                  <th>Report Name</th>
+
+                                  <th>Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              {{#each reports}}
+                              <tr>
+                                  <td>{{sno}}</td>
+                                  <td>{{report_name}}</td>
+                                  <td> <a herf="#" onClick="downloadReport('/data/scrb/report/download/{{id}}/{{../year}}/{{../month}}/all');"  class="js-download-report" download>Download</a>
+                                  </td>
+
+                              </tr>
+                              {{/each}}
+
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  <!-- /#page-content-wrapper -->

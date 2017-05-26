@@ -1,0 +1,153 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-trendline-uinits-selection">All Units
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-trendline-options-units">
+          <li class="disabled pull-left"><a class="js-trendline-distrcts-uinits">Units</a></li>
+          <li class="active"><a class="js-distrcts-trendline" data-val="all">All Units</a></li>
+          <li><a class="js-distrcts-trendline" data-val="1">KURNOOL</a></li>
+          <li><a class="js-distrcts-trendline" data-val="2">CUDDAPAH</a></li>
+          <li><a class="js-distrcts-trendline" data-val="3">ANANTHAPUR</a></li>
+          <li><a class="js-distrcts-trendline" data-val="4">CHITTOOR</a></li>
+          <li><a class="js-distrcts-trendline" data-val="5">TIRUPATHI (U)</a></li>
+          <li><a class="js-distrcts-trendline" data-val="6">GUNTUR (R)</a></li>
+          <li><a class="js-distrcts-trendline" data-val="7">GUNTUR (U)</a></li>
+          <li><a class="js-distrcts-trendline" data-val="8">NELLORE</a></li>
+          <li><a class="js-distrcts-trendline" data-val="9">PRAKASHAM</a></li>
+          <li><a class="js-distrcts-trendline" data-val="10">WEST GODAVARI </a></li>
+          <li><a class="js-distrcts-trendline" data-val="11">EAST GODAVARI</a></li>
+          <li><a class="js-distrcts-trendline" data-val="12">RAJAHMUNDRY (U)</a></li>
+          <li><a class="js-distrcts-trendline" data-val="13">KRISHNA</a></li>
+          <li><a class="js-distrcts-trendline" data-val="14">VIJAYAWADA CITY</a></li>
+          <li><a class="js-distrcts-trendline" data-val="15">VIZAG CITY</a></li>
+          <li><a class="js-distrcts-trendline" data-val="16">VIZAG (R)</a></li>
+          <li><a class="js-distrcts-trendline" data-val="17">VIZIANAGARAM</a></li>
+          <li><a class="js-distrcts-trendline" data-val="18">SRIKAKULAM</a></li>
+          <li><a class="js-distrcts-trendline" data-val="19">RP VIJAYAWADA</a></li>
+          <li><a class="js-distrcts-trendline" data-val="20">RP GUNTAKAL</a></li>
+          <li class="disabled pull-left"><a class="js-trendline-range">Ranges</a></li>
+          <li><a class="js-trendline-range" data-distrct=11>Kurnool Range</a></li>
+          <li><a class="js-trendline-range" data-distrct="12">Anantapur Range</a></li>
+          <li><a class="js-trendline-range" data-distrct="13">Guntur Range</a></li>
+          <li><a class="js-trendline-range" data-distrct="14">Eluru Range</a></li>
+          <li><a class="js-trendline-range" data-distrct="15">Vizag Range</a></li>
+          <li><a class="js-Zone-wise-trendline">Zones</a></li>
+          <li><a class="js-Zone-wise-trendline" data-distrct="111">South Zone - Rayalaseema</a></li>
+          <li><a class="js-Zone-wise-trendline" data-distrct="112">North Coastal Zone - Andhra</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-trendline-selection">TOTAL IPC CRIMES
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-trendline-options-heads">
+          <li class="active"><a class="js-trendline-groups" data-val="all" data-type="totalipc">TOTAL IPC CRIMES</a></li>
+          <li><a class="js-trendline-groups" data-val="[1, 2, 3, 4, 5, 6]" data-type="property">PROPERTY CRIME </a></li>
+          <li><a class="js-trendline-groups" data-val="[7, 8, 9, 10, 11, 12, 13, 18]" data-type="bodily">BODILY OFFENCES</a></li>
+          <li><a class="js-trendline-groups" data-val="[14, 15, 16, 17]" data-type="whitecoller">WHITE COLLAR CRIME</a></li>
+          <li><a class="js-trendline-groups" data-val="[19, 20]" data-type="accidents">ROAD ACCIDENTS</a></li>
+          <li><a class="js-trendline-groups" data-val="[21]" data-type="otheripc">OTHER IPC</a></li>
+          <li><a class="js-trendline-groups" data-val="women" data-type="women">CRIME AGAINST WOMEN</a></li>
+          <li><a class="js-trendline-groups" data-val="faction" data-type="faction">CRIME AGAINST SC-ST</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-2 col-xs-12">
+    <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-trenline-month-button">Month
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-trendline-month-selection">
+          <li class="active"><a class="js-trenline-month" data-val="12">ALL</a></li>
+          <li><a class="js-trenline-month" data-val="1">JAN</a></li>
+          <li><a class="js-trenline-month" data-val="2">FEB</a></li>
+          <li><a class="js-trenline-month" data-val="3">MAR</a></li>
+          <li><a class="js-trenline-month" data-val="4">APR</a></li>
+          <li><a class="js-trenline-month" data-val="5">MAY</a></li>
+          <li><a class="js-trenline-month" data-val="6">JUN</a></li>
+          <li><a class="js-trenline-month" data-val="7">JUL</a></li>
+          <li><a class="js-trenline-month" data-val="8">AUG</a></li>
+          <li><a class="js-trenline-month" data-val="9">SEP</a></li>
+          <li><a class="js-trenline-month" data-val="10">OCT</a></li>
+          <li><a class="js-trenline-month" data-val="11">NOV</a></li>
+          <li><a class="js-trenline-month" data-val="12">DEC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-year-trendline-button">2016
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-year-trendline-options-years">
+          <li><a class="js-year-trendline" data-val="2003">2003</a></li>
+          <li><a class="js-year-trendline" data-val="2004">2004</a></li>
+          <li><a class="js-year-trendline" data-val="2005">2005</a></li>
+          <li><a class="js-year-trendline" data-val="2006">2006</a></li>
+          <li><a class="js-year-trendline" data-val="2007">2007</a></li>
+          <li><a class="js-year-trendline" data-val="2008">2008</a></li>
+          <li><a class="js-year-trendline" data-val="2009">2009</a></li>
+          <li><a class="js-year-trendline" data-val="2010">2010</a></li>
+          <li><a class="js-year-trendline" data-val="2011">2011</a></li>
+          <li><a class="js-year-trendline" data-val="2012">2012</a></li>
+          <li><a class="js-year-trendline" data-val="2013">2013</a></li>
+          <li><a class="js-year-trendline" data-val="2014">2014</a></li>
+          <li><a class="js-year-trendline" data-val="2015">2015</a></li>
+          <li class="active"><a class="js-year-trendline" data-val="2016">2016</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-xs-12">
+      <div class="card-trendline" id="js-report-trendline">
+
+      </div>
+    </div>
+    <div class="col-sm-12 col-xs-12">
+      <div class="card-trendline" id="js-report-trendline-legend">
+
+      </div>
+    </div>
+  <!--  <div class="col-sm-4 col-xs-12">
+      <div class="card" id="js-report-trendline-table">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      <div class="card" id="js-report-trendline-two">
+
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="card" id="js-report-trendline-two-table">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>-->
+  </div>
+</div>

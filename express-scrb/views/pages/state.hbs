@@ -1,0 +1,136 @@
+<!-- Page Content -->
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <div class="row p-header">
+      <div class="col-sm-1 p-header-bars">
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars"></i></a>
+      </div>
+      <div class="col-sm-9 p-header-title">
+        <h2>Monthly Reports Dashboard</h2>
+      </div>
+      <div class="col-sm-2 p-header-info">
+        <h3>
+          {{user.name}}
+          <small><br/>
+              SCRB
+          </small>
+        </h3>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row p-body-date">
+        <div class="col-sm-2">
+          <select class="form-control" id="js-state-month-select">
+                          <option value="1" {{selectedOrNot month 1}} >January</option>
+                          <option value="2" {{selectedOrNot month 2}}>February</option>
+                          <option value="3" {{selectedOrNot month 3}}>March</option>
+                          <option value="4" {{selectedOrNot month 4}}>April</option>
+                          <option value="5" {{selectedOrNot month 5}}>May</option>
+                          <option value="6" {{selectedOrNot month 6}}>June</option>
+                          <option value="7" {{selectedOrNot month 7}}>July</option>
+                          <option value="8" {{selectedOrNot month 8}}>August</option>
+                          <option value="9" {{selectedOrNot month 9}}>September</option>
+                          <option value="10" {{selectedOrNot month 10}}>October</option>
+                          <option value="11" {{selectedOrNot month 11}}>November</option>
+                          <option value="12" {{selectedOrNot month 12}}>December</option>
+          </select>
+        </div>
+        <div class="col-sm-2">
+          <select class="form-control" name="year" id="js-state-year-select">
+            {{#each years}}
+                  <option value="{{year}}" {{selected}}>{{year}}</option>
+                      {{/each}}
+          </select>
+        </div>
+        <div class="col-sm-2 pull-right">
+          <select class="form-control" id="js-state-month-view">
+            <option value="report" {{selectedOrNot view 'report'}}> report</option>
+            <option value="district" {{selectedOrNot view 'district'}}>District</option>
+          </select>
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+        <!-- <div class="col-sm-2">
+          <select class="form-control">
+            <option>All Districts</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div> -->
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 p-body-cols">
+          <div class="row p-body-rows">
+            {{#each reports}}
+            <div class="col-sm-4">
+              <div class="r-card">
+                <p>{{report_name}}</p>
+                {{description}}
+              </div>
+              <div class="row m-reports">
+                <div class="btn-group col-sm-12 col-xs-12" role="group" aria-label="..." style="margin-bottom:7%;">
+                  <button type="button" data-report="{{report_number}}" class="btn col-sm-6 col-xs-6 r-success" data-toggle="modal" data-target="#reports-success"> {{reportSuccess}}</button>
+                  <!--<button type="button" class="btn col-sm-4 r-danger" data-toggle="modal" data-target="#reports-default"> {{reportFail}}</button>-->
+                  <button type="button" class="btn col-sm-6 col-xs-6 r-default" data-report="{{report_number}}" data-toggle="modal"  data-target="#reports-notUploads"> {{reportsNotUploaded}}</button>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="reports-success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header modal-success">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Uploded Statements</h4>
+        </div>
+        <div class="modal-body">
+          <div class="table-responsive">
+           <div id="reportsList" >
+            <p class="text-info">Please wait ... </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"> Exit </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="reports-notUploads" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-success">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Not uploaded districts</h4>
+      </div>
+      <div class="modal-body">
+        <div class="table-responsive">
+         <div id="districtsList" >
+          <p class="text-info">Please wait ... </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"> Exit </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /#page-content-wrapper -->

@@ -1,0 +1,73 @@
+<!-- Page Content -->
+  <div id="page-content-wrapper">
+      <div class="container-fluid">
+          <div class="row p-header">
+              <div class="col-sm-1 p-header-bars">
+                  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars"></i></a>
+              </div>
+              <div class="col-sm-9 p-header-title">
+                  <h2>Download Quarterly Reports</h2>
+              </div>
+              <div class="col-sm-2 p-header-info">
+                <h3>
+                    {{user.name}}
+                    <small><br/>
+                        DCRB-{{user.district_name}}
+                    </small>
+                </h3>
+              </div>
+          </div>
+          <div class="container-fluid">
+              <div class="row p-body-date">
+                <div class="col-sm-2">
+                    <select name="month" id="js-download-quarterly-quarter-select" class="form-control">
+                      <option value="quarter1" {{selectedOrNot quarter 'quarter1'}}>Quarter 1</option>
+                      <option value="quarter2" {{selectedOrNot quarter 'quarter2'}}>Quarter 2</option>
+                      <option value="quarter3" {{selectedOrNot quarter 'quarter3'}}>Quarter 3</option>
+                      <option value="quarter4" {{selectedOrNot quarter 'quarter4'}}>Quarter 4</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <select class="form-control" name="year" id="js-download-quarterly-year-select">
+                      {{#each years}}
+                        <option value="{{year}}" {{selected}}>{{year}}</option>
+                      {{/each}}
+                    </select>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-12 p-body-table">
+                      <div class="table-responsive">
+                          <table class="table table-bordered table-striped">
+                              <thead>
+                              <tr>
+                                  <th>REP.NO.</th>
+                                  <th>Report Name</th>
+                                  <th>Date and Time</th>
+                                  <th>Action</th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                                {{#each reports}}
+                                <tr>
+                                    <td>{{id}}</td>
+                                    <td>{{report_name}}</td>
+                                    <td>{{updated_date}}</td>
+                                    <td> {{#if path_report}}
+                                        <a href="/data/download?path={{path_report}}" data-report-path="{{path_report}}" class="js-download-report">Download</a>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                                {{/each}}
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  <!-- /#page-content-wrapper -->

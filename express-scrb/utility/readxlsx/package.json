@@ -1,0 +1,6 @@
+{
+  "name": "readXlsx",
+  "version": "0.0.0",
+  "description": "A small library providing utility methods to parse xlsx file to json",
+  "main": "index.js"
+}

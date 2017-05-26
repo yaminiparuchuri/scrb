@@ -1,0 +1,218 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-xs-12" style="padding-left: 20px; padding-right: 10px">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-unit-selection">All Units
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-unit-selection-options">
+          <li class="active"><a class="js-distrcts" data-val="0">All Units</a></li>
+          <li><a class="js-distrcts" data-val="1">KURNOOL</a></li>
+          <li><a class="js-distrcts" data-val="2">CUDDAPAH</a></li>
+          <li><a class="js-distrcts" data-val="3">ANANTHAPUR</a></li>
+          <li><a class="js-distrcts" data-val="4">CHITTOOR</a></li>
+          <li><a class="js-distrcts" data-val="5">TIRUPATHI (U)</a></li>
+          <li><a class="js-distrcts" data-val="6">GUNTUR (R)</a></li>
+          <li><a class="js-distrcts" data-val="7">GUNTUR (U)</a></li>
+          <li><a class="js-distrcts" data-val="8">NELLORE</a></li>
+          <li><a class="js-distrcts" data-val="9">PRAKASHAM</a></li>
+          <li><a class="js-distrcts" data-val="10">WEST GODAVARI </a></li>
+          <li><a class="js-distrcts" data-val="11">EAST GODAVARI</a></li>
+          <li><a class="js-distrcts" data-val="12">RAJAHMUNDRY (U)</a></li>
+          <li><a class="js-distrcts" data-val="13">KRISHNA</a></li>
+          <li><a class="js-distrcts" data-val="14">VIJAYAWADA CITY</a></li>
+          <li><a class="js-distrcts" data-val="15">VIZAG CITY</a></li>
+          <li><a class="js-distrcts" data-val="16">VIZAG (R)</a></li>
+          <li><a class="js-distrcts" data-val="17">VIZIANAGARAM</a></li>
+          <li><a class="js-distrcts" data-val="18">SRIKAKULAM</a></li>
+          <li><a class="js-distrcts" data-val="19">RP VIJAYAWADA</a></li>
+          <li><a class="js-distrcts" data-val="20">RP GUNTAKAL</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4 col-xs-12"></div>
+    <div class="col-sm-2 col-xs-6" style="padding-left: 20px; padding-right: 10px">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-year-selection">2016
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-year-selection-options">
+          <li><a class="js-year" data-val="2003">2003</a></li>
+          <li><a class="js-year" data-val="2004">2004</a></li>
+          <li><a class="js-year" data-val="2005">2005</a></li>
+          <li><a class="js-year" data-val="2006">2006</a></li>
+          <li><a class="js-year" data-val="2007">2007</a></li>
+          <li><a class="js-year" data-val="2008">2008</a></li>
+          <li><a class="js-year" data-val="2009">2009</a></li>
+          <li><a class="js-year" data-val="2010">2010</a></li>
+          <li><a class="js-year" data-val="2011">2011</a></li>
+          <li><a class="js-year" data-val="2012">2012</a></li>
+          <li><a class="js-year" data-val="2013">2013</a></li>
+          <li><a class="js-year" data-val="2014">2014</a></li>
+          <li><a class="js-year" data-val="2015">2015</a></li>
+          <li class="active"><a class="js-year" data-val="2016">2016</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-2 col-xs-6" style="padding-left: 20px; padding-right: 10px">
+      <div class="dropdown d-left">
+        <button class="btn btn-card dropdown-toggle col-xs-12" type="button" data-toggle="dropdown" id="js-month-selection">Month
+          <span class="caret pull-right"></span>
+        </button>
+        <ul class="dropdown-menu d-down" id="js-month-selection-options">
+          <li class="active"><a class="js-months" data-val="all">ALL</a></li>
+          <li><a class="js-months" data-val="1">JAN</a></li>
+          <li><a class="js-months" data-val="2">FEB</a></li>
+          <li><a class="js-months" data-val="3">MAR</a></li>
+          <li><a class="js-months" data-val="4">APR</a></li>
+          <li><a class="js-months" data-val="5">MAY</a></li>
+          <li><a class="js-months" data-val="6">JUN</a></li>
+          <li><a class="js-months" data-val="7">JUL</a></li>
+          <li><a class="js-months" data-val="8">AUG</a></li>
+          <li><a class="js-months" data-val="9">SEP</a></li>
+          <li><a class="js-months" data-val="10">OCT</a></li>
+          <li><a class="js-months" data-val="11">NOV</a></li>
+          <li><a class="js-months" data-val="12">DEC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-12 col-xs-12" >
+    <h4 id="enddatemonth" style="text-align:center;margin-top:2%;"></h4>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-congnizable-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-congnizable-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Crime Head</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-property-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-property-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Crime Head</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--<div class="col-sm-4 col-xs-12">
+      <div class="card" id="js-offence-againest-women">
+
+      </div>
+    </div>-->
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-non-grave-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-non-grave-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Crime Head</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-body-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-body-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Crime Head</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!--<div class="col-sm-6 col-xs-12">
+      <div class="card" id="js-faction-offence">
+
+      </div>
+    </div>-->
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-grave-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-grave-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Crime Head</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <div class="card" id="js-total-crimes-report">
+
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div class="card" id="js-total-crimes-table">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>Number of Cases</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>

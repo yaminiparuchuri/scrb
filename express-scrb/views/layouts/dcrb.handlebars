@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>District Record Crime Beareau</title>
+  <style type="text/css" media="print">
+    @media print{
+      body {
+        -webkit-print-color-adjust: exact !important;
+        color:red;
+      }
+      .hidePrint{
+        display:none;
+      }
+
+      html{
+        color:#a94442 !important;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/fine-uploader.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+  <link rel="stylesheet" href="/css/pnotify.css">
+  <link rel="stylesheet" media="print" href="/css/bootstrap.css"  />
+  <link rel="stylesheet" media="print" href="/font-awesome-4.5.0/css/font-awesome.min.css"  />
+  <link rel="stylesheet" media="print" href="/css/styles.css"  />
+  <link rel="stylesheet" media="print" href="/css/sidebar.css"  />
+
+
+
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <scrip src="/js/jquery.file.downloade.js"></script>
+
+</head>
+
+<body style="background-color: #f5f5f5;">
+  <div id="wrapper" class="">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper" class="hidePrint">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#">
+            <span><i class="fa fa-spinner"></i> DCRB</span>
+          </a>
+        </li>
+        <li class="sidebar-upload active">
+          <a href="#" data-toggle="collapse" data-target="#download" class="" aria-expanded="true">
+            <span>Reports to Upload <i class="fa fa-chevron-down"></i></span>
+          </a>
+          <ul id="download" class="collapse in" aria-expanded="true">
+            <li>
+              <a href="/data/dcrb/weekly"><i class="fa fa-chevron-right"></i> Weekly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb"><i class="fa fa-chevron-right"></i> Monthly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb/quarterly"><i class="fa fa-chevron-right"></i> Quarterly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb/yearly"><i class="fa fa-chevron-right"></i> Yearly Reports</a>
+            </li>
+
+          </ul>
+        </li>
+        <li class="sidebar-download">
+          <a href="#" data-toggle="collapse" data-target="#upload" class="" aria-expanded="true">
+            <span>Download Reports <i class="fa fa-chevron-down"></i></span>
+          </a>
+          <ul id="upload" class="collapse" aria-expanded="true">
+            <li>
+              <a href="/data/dcrb/download/weekly"><i class="fa fa-chevron-right"></i> Weekly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb/download"><i class="fa fa-chevron-right"></i> Monthly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb/download/quarterly"><i class="fa fa-chevron-right"></i> Quarterly Reports</a>
+            </li>
+            <li>
+              <a href="/data/dcrb/download/yearly"><i class="fa fa-chevron-right"></i> Yearly Reports</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-bot">
+          <a href="/logout">
+            <span>Logout</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    {{{body}}}
+  </div>
+</body>
+<script src="/js/jquery.fine-uploader.js"></script>
+<script src="/js/amcharts.js"></script>
+<script src="/js/serial.js"></script>
+<script src="/js/pie.js"></script>
+<script src="/js/light.js"></script>
+<script src="/js/dark.js"></script>
+<script src="/js/black.js"></script>
+<script src="/js/none.js"></script>
+<script src="/js/pnotify.custom.min.js"></script>
+<script src="/js/serb.js"></script>
+<script type="text/template" id="qq-template">
+  <div class="qq-uploader-selector qq-uploader" qq-drop-area-text="Drop files here">
+
+    <div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone>
+      <span class="qq-upload-drop-area-text-selector"></span>
+    </div>
+    <div class="qq-upload-button-selector qq-upload-button">
+      <div>Upload Report</div>
+    </div>
+    <span class="qq-drop-processing-selector qq-drop-processing">
+      <span>Processing dropped files...</span>
+      <span class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"></span>
+    </span>
+    <ul class="qq-upload-list-selector qq-upload-list" aria-live="polite" aria-relevant="additions removals" style="display:none;">
+      <li></li>
+    </ul>
+
+    <dialog class="qq-alert-dialog-selector">
+      <div class="qq-dialog-message-selector"></div>
+      <div class="qq-dialog-buttons">
+        <button type="button" class="qq-cancel-button-selector">Close</button>
+      </div>
+    </dialog>
+
+    <dialog class="qq-confirm-dialog-selector">
+      <div class="qq-dialog-message-selector"></div>
+      <div class="qq-dialog-buttons">
+        <button type="button" class="qq-cancel-button-selector">No</button>
+        <button type="button" class="qq-ok-button-selector">Yes</button>
+      </div>
+    </dialog>
+
+    <dialog class="qq-prompt-dialog-selector">
+      <div class="qq-dialog-message-selector"></div>
+      <input type="text">
+      <div class="qq-dialog-buttons">
+        <button type="button" class="qq-cancel-button-selector">Cancel</button>
+        <button type="button" class="qq-ok-button-selector">Ok</button>
+      </div>
+    </dialog>
+  </div>
+</script>
+
+<script>
+  $(document).ready(function() {
+
+    var initializeFineUploader = function(month, year) {
+      if(!month){
+        month = "Annual";
+      }
+      jQuery('.r-default').each(function(index, el) {
+        var uploader = new qq.FineUploader({
+          debug: true,
+          element: el,
+          request: {
+            endpoint: '/distrcts/uploadReport'
+          },
+          deleteFile: {
+            enabled: true,
+            endpoint: '/distrcts/uploadReport'
+          },
+          callbacks: {
+            onComplete: function(id,name,response,xhr) {
+              if(response.success == true){
+                new PNotify({
+                    title: 'Success!',
+                    text: 'Inspection has been reported successfully.',
+                    type: 'success',
+                    hide:true,
+                    delay: 1000
+                });
+                window.setTimeout(function(){
+                  window.location.reload();
+                },2000);
+              }
+
+            },
+            onError: function(id, name, errorReason, xhr) {
+              var text = '';
+              if(typeof errorReason == 'object'){
+                if(errorReason.validationErrors){
+                  errorReason.validationErrors = errorReason.validationErrors.join('<br/>');
+                  $('#reportsList').html('<h4 class="text-right"><a href="#" onclick="window.print();"><span class=" text-right glyphicon glyphicon-print  text-info"></span></a></h4> <b class="text-danger" style="color:red;">'+errorReason.validationErrors+'</b>');
+                  $('#myModalLabel').html('Error report for :'+name)
+                  $('.close').show();
+                }else{
+                  text = 'Report type may be mismatched ';
+                  $('#request-pending').modal('hide');
+                }
+              }else if(xhr.response == 'Report uploaded already'){
+                text = xhr.response;
+                window.setTimeout(function(){
+                  window.location.reload();
+                },2000);
+                $('#request-pending').modal('hide');
+              }else{
+                text = errorReason;
+                $('#request-pending').modal('hide');
+              }
+              new PNotify({
+                title:'Internal Server Error',
+                text: text,
+                hide:true,
+                delay:5000
+              });
+            },
+            onSubmit:function(id,name){
+               $('#request-pending').modal({
+                keyboard: false,
+                backdrop:'static'
+               });
+            },
+            onUpload:function(id,name){
+
+            }
+          }
+        });
+        var reportObj = $(el).closest('.r-default').data();
+        uploader.setParams({
+          id: reportObj.id,
+          name: reportObj.reportName,
+          month: month ,
+          year: year
+        });
+
+      });
+    };
+
+    $('#js-month-select').change(function(event) {
+      //initializeFineUploader($(event.target).val(), $('#js-report-year').val());
+      var year = $('#js-report-year').val();
+      var month = $(event.target).val();
+      var week = $('#js-report-week').val();
+      var path;
+      if(week){
+        path = '/data/dcrb/weekly/'+year+'/'+month+'/'+week;
+      }else{
+        path = '/data/dcrb/'+year+'/'+month;
+      }
+      window.location.pathname = path;
+    });
+
+    $('#js-report-year').change(function(event) {
+   //   initializeFineUploader($('js-month-select').val(), $(event.target).val());
+      var year = $(event.target).val();
+      var month = $('#js-month-select').val();
+      var week = $('#js-report-week');
+      var path;
+      if(week){
+        path = '/data/dcrb/weekly/'+year+'/'+month+'/'+week;
+      }else{
+        path = '/data/dcrb/'+year+'/'+month;
+      }
+      window.location.pathname = path;
+    });
+
+/*** Weekly reports change week event ****/
+    $('#js-report-week').change(function(event){
+      var week = $(event.target).val();
+      var month = $('#js-month-select').val();
+      var year =  $('#js-report-year').val();
+      var path = '/data/dcrb/weekly/'+year+'/'+month+'/'+week;
+      window.location.pathname = path;
+
+    });
+/**** End with report change week event *****/
+
+    $('#js-month-dcrb-download-select').change(function(event){
+      var month = $(event.target).val();
+      var year = $('#js-report-dcrb-download-year').val();
+      var week = $('#js-report-dcrb-download-week').val();
+      var path ;
+      if(week){
+        path = '/data/dcrb/download/weekly/'+year+'/'+month+'/'+week;
+      }else{
+        path = '/data/dcrb/download/'+year+'/'+month;
+      }
+      window.location.pathname = path;
+    });
+
+    $('#js-report-dcrb-download-year').change(function(event){
+      var year = $(event.target).val();
+      var month = $('#js-month-dcrb-download-select').val();
+      var week = $('#js-report-dcrb-download-week').val();
+      var path ;
+      if(week){
+          path = '/data/dcrb/download/weekly/'+year+'/'+month+'/'+week;
+      }else{
+        path = '/data/dcrb/download/'+year+'/'+month;
+      }
+      window.location.pathname =path;
+    });
+
+/***** Dcrb download backup files for weeks ****/
+    $('#js-report-dcrb-download-week').change(function(event){
+        var month = $('#js-month-dcrb-download-select').val();
+        var year = $('#js-report-dcrb-download-year').val();
+        var week = $(event.target).val();
+        window.location.pathname = '/data/dcrb/download/weekly/'+year+'/'+month+'/'+week;
+    })
+
+    $('#js-quarterly-quarter-select').change(function(event){
+      var year = $('#js-quarterly-year-select').val();
+      var quarter = $(event.target).val();
+      window.location.pathname = '/data/dcrb/quarterly/'+year+'/'+quarter;
+    });
+
+    $('#js-quarterly-year-select').change(function(event){
+      var year = $(event.target).val();
+      var quarter = $('#js-quarterly-quarter-select').val();
+      window.location.pathname = '/data/dcrb/quarterly/'+year+'/'+quarter;
+    });
+
+    $('#js-yearly-year-select').change(function(event){
+      var year = $(event.target).val();
+      window.location.pathname = '/data/dcrb/yearly/'+year;
+    });
+
+    $('#js-download-quarterly-quarter-select').change(function(event){
+      var quarter = $(event.target).val();
+      var year = $('#js-download-quarterly-year-select').val();
+      window.location.pathname = '/data/dcrb/download/quarterly/'+year+'/'+quarter;
+    });
+
+    $('#js-download-quarterly-year-select').change(function(event){
+      var year = $(event.target).val();
+      var quarter = $('#js-download-quarterly-quarter-select').val();
+      window.location.pathname= '/data/dcrb/download/quarterly/'+year+'/'+quarter;
+    });
+
+    $('#js-download-yearly-year-select').change(function(event){
+      var year = $(event.target).val();
+      window.location.pathname= '/data/dcrb/download/yearly/'+year;
+    });
+
+    /** Initializing weekly fine uploader */
+    var initializeWeeklyFineUploader = function(week,month, year) {
+      if(!month){
+        month = "Annual";
+      }
+      jQuery('.r-default').each(function(index, el) {
+        var uploader = new qq.FineUploader({
+          debug: true,
+          element: el,
+          request: {
+            endpoint: '/distrcts/upload/weekly/report'
+          },
+          deleteFile: {
+            enabled: true,
+            endpoint: '/distrcts/upload/weekly/report'
+          },
+          callbacks: {
+            onComplete: function(id,name,response,xhr) {
+              if(response.success == true){
+                new PNotify({
+                    title: 'Success!',
+                    text: 'Inspection has been reported successfully.',
+                    type: 'success',
+                    hide:true,
+                    delay: 1000
+                });
+                window.setTimeout(function(){
+                  window.location.reload();
+                },2000);
+              }
+
+            },
+            onError: function(id, name, errorReason, xhr) {
+              var text = '';
+              if(typeof errorReason == 'object'){
+                if(errorReason.validationErrors){
+                  errorReason.validationErrors = errorReason.validationErrors.join('<br/>');
+                  $('#reportsList').html('<h4 class="text-right"><a href="#" onclick="window.print();"><span class=" text-right glyphicon glyphicon-print  text-info"></span></a></h4> <b class="text-danger" style="color:red;">'+errorReason.validationErrors+'</b>');
+                  $('#myModalLabel').html('Error report for :'+name)
+                  $('.close').show();
+                }else{
+                  text = 'Report type may be mismatched ';
+                  $('#request-pending').modal('hide');
+                }
+              }else if(xhr.response == 'Report uploaded already'){
+                text = xhr.response;
+                window.setTimeout(function(){
+                  window.location.reload();
+                },2000);
+                $('#request-pending').modal('hide');
+              }else{
+                text = errorReason;
+                $('#request-pending').modal('hide');
+              }
+              new PNotify({
+                title:'Internal Server Error',
+                text: text,
+                hide:true,
+                delay:5000
+              });
+            },
+            onSubmit:function(id,name){
+               $('#request-pending').modal({
+                keyboard: false,
+                backdrop:'static'
+               });
+            },
+            onUpload:function(id,name){
+
+            }
+          }
+        });
+        var reportObj = $(el).closest('.r-default').data();
+        uploader.setParams({
+          id: reportObj.id,
+          name: reportObj.reportName,
+          month: month ,
+          year: year,
+          week:week
+        });
+
+      });
+    };
+
+
+
+    var path = window.location.pathname;
+    if(path.search('quarterly') > -1){
+      initializeFineUploader($('#js-quarterly-quarter-select').val(), $('#js-quarterly-year-select').val());
+    }else if(path.search('yearly') > -1){
+      initializeFineUploader(null, $('#js-yearly-year-select').val());
+    }else if(path.search('weekly') >-1) {
+      initializeWeeklyFineUploader($('#js-report-week').val(),$('#js-month-select').val(), $('#js-report-year').val());
+    }else{
+      initializeFineUploader($('#js-month-select').val(), $('#js-report-year').val());
+    }
+
+    $('#request-pending').on('hide.bs.modal',function(){
+      console.log('in request pending modal hide');
+      $('#reportsList').html('<p class="text-info">Please wait ... </p>');
+      $('#myModalLabel').html('Uploading');
+    });
+  });
+</script>
+<script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
+
+</html>

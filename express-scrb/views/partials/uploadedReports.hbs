@@ -1,0 +1,23 @@
+
+<table class="table table-bordered table-striped">
+   <thead>
+      <tr>
+        <th>Report No</th>
+        <th>Report Name</th>
+        <th>Uploaded date</th>
+        <th>Download</th>
+        <th></th>
+      </tr>
+   </thead>
+   <tbody>
+     {{#each reportsList}}
+     <tr>
+      <td>{{id}}</td>
+      <td>{{report_name}}</td>
+      <td>{{uploaded_date}}</td>
+      <td><a href="/data/download?path={{path_report}}" download> Download</a></td>
+      <td></td>
+     </tr>
+     {{/each}}
+   </tbody>
+</table>

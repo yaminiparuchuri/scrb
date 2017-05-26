@@ -1,0 +1,4290 @@
+{
+    "1": {
+        "Stat-I": {
+            "dataRowStart": 6,
+            "dataRowEnd": 37,
+            "skipRows": [27, 28],
+            "dataColumns": {
+                "3": "rm_rep",
+                "4": "rm_fal",
+                "5": "rm_tru",
+                "6": "rm_cha",
+                "7": "rm_con",
+                "8": "rm_acq",
+                "9": "rm_com",
+                "10": "rm_pt",
+                "11": "rm_un",
+                "12": "rm_ui",
+                "13": "lm_rep",
+                "14": "lm_fal",
+                "15": "lm_tru",
+                "16": "lm_cha",
+                "17": "lm_con",
+                "18": "lm_acq",
+                "19": "lm_com",
+                "20": "lm_pt",
+                "21": "lm_un",
+                "22": "lm_ui",
+                "23": "cmpy_rep",
+                "24": "cmpy_fal",
+                "25": "cmpy_tru",
+                "26": "cmpy_cha",
+                "27": "cmpy_con",
+                "28": "cmpy_acq",
+                "29": "cmpy_com",
+                "30": "cmpy_pt",
+                "31": "cmpy_un",
+                "32": "cmpy_ui"
+            },
+            "dataFormulas": {
+                "27": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "28": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "37": [3, 13, 23]
+            }
+        },
+        "Stat-II": {
+            "dataRowStart": 6,
+            "dataRowEnd": 37,
+            "skipRows": [27, 28],
+            "dataColumns": {
+                "3": "upto_cy_rep",
+                "4": "upto_cy_fal",
+                "5": "upto_cy_tru",
+                "6": "upto_cy_cha",
+                "7": "upto_cy_con",
+                "8": "upto_cy_acq",
+                "9": "upto_cy_com",
+                "10": "upto_cy_pt",
+                "11": "upto_cy_un",
+                "12": "upto_cy_ui",
+                "13": "upto_ly_rep",
+                "14": "upto_ly_fal",
+                "15": "upto_ly_tru",
+                "16": "upto_ly_cha",
+                "17": "upto_ly_con",
+                "18": "upto_ly_acq",
+                "19": "upto_ly_com",
+                "20": "upto_ly_pt",
+                "21": "upto_ly_un",
+                "22": "upto_ly_ui",
+                "23": "upto_bly_rep",
+                "24": "upto_bly_fal",
+                "25": "upto_bly_tru",
+                "26": "upto_bly_cha",
+                "27": "upto_bly_con",
+                "28": "upto_bly_acq",
+                "29": "upto_bly_com",
+                "30": "upto_bly_pt",
+                "31": "upto_bly_un",
+                "32": "upto_bly_ui"
+            },
+            "dataFormulas": {
+                "27": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "28": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "37": [3, 13, 23]
+            }
+        },
+        "Stat-II-A": {
+            "dataRowStart": 5,
+            "dataRowEnd": 19,
+            "dataColumns": {
+                "3": "no_cases_rep_cm",
+                "4": "no_cases_rep_lm",
+                "5": "no_cases_rep_cmpy"
+            },
+            "dataFormulas": {
+                "19": [3, 4, 5]
+            }
+
+        },
+        "Stat-III": {
+            "dataRowStart": 6,
+            "dataRowEnd": 37,
+            "dataColumns": {
+                "3": "ybly_rep",
+                "4": "ybly_fal",
+                "5": "ybly_tru",
+                "6": "ybly_cha",
+                "7": "ybly_con",
+                "8": "ybly_acq",
+                "9": "ybly_com",
+                "10": "ybly_pt",
+                "11": "ybly_un",
+                "12": "ybly_ui",
+                "13": "bly_rep",
+                "14": "bly_fal",
+                "15": "bly_tru",
+                "16": "bly_cha",
+                "17": "bly_con",
+                "18": "bly_acq",
+                "19": "bly_com",
+                "20": "bly_pt",
+                "21": "bly_un",
+                "22": "bly_ui",
+                "23": "ly_rep",
+                "24": "ly_fal",
+                "25": "ly_tru",
+                "26": "ly_cha",
+                "27": "ly_con",
+                "28": "ly_acq",
+                "29": "ly_com",
+                "30": "ly_pt",
+                "31": "ly_un",
+                "32": "ly_ui"
+            },
+            "dataFormulas": {
+                "28": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "29": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
+                "37": [3, 13, 23]
+            }
+
+        },
+        "Stat-IV": {
+            "dataRowStart": 7,
+            "dataRowEnd": 28,
+            "dataColumns": {
+                "3": "no_casese_pending_py",
+                "4": "py_con",
+                "5": "py_acq",
+                "6": "py_comp",
+                "7": "py_un",
+                "8": "py_total_4_7",
+                "9": "py_mff",
+                "10": "py_pt",
+                "11": "py_ui",
+                "12": "no_cases_rgstrd_upto_cy",
+                "13": "cy_con",
+                "14": "cy_acq",
+                "15": "cy_comp",
+                "16": "cy_un",
+                "17": "cy_total_13_16",
+                "18": "cy_mff",
+                "19": "cy_pt",
+                "20": "cy_ui"
+            },
+            "dataFormulas": {
+                "7": [21, 22],
+                "8": [21, 22],
+                "9": [21, 22],
+                "10": [21, 22],
+                "11": [21, 22],
+                "12": [21, 22],
+                "13": [21, 22],
+                "14": [21, 22],
+                "15": [21, 22],
+                "16": [21, 22],
+                "17": [21, 22],
+                "18": [21, 22],
+                "19": [21, 22],
+                "20": [21, 22],
+                "21": [21, 22],
+                "22": [21, 22],
+                "23": [21, 22],
+                "24": [21, 22],
+                "25": [21, 22],
+                "26": [21, 22],
+                "27": [21, 22],
+                "28": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+            }
+
+        },
+        "Stat-V-A": {
+            "dataRowStart": 6,
+            "dataRowEnd": 27,
+            "dataColumns": {
+                "3": "minus_34",
+                "4": "minus_33",
+                "5": "minus_32",
+                "6": "minus_31",
+                "7": "minus_30",
+                "8": "minus_29",
+                "9": "minus_28",
+                "10": "minus_27",
+                "11": "minus_26",
+                "12": "minus_25",
+                "13": "minus_24",
+                "14": "minus_23",
+                "15": "minus_22",
+                "16": "minus_21",
+                "17": "minus_20",
+                "18": "minus_19",
+                "19": "minus_18",
+                "20": "minus_17",
+                "21": "minus_16",
+                "22": "minus_15",
+                "23": "minus_14",
+                "24": "minus_13",
+                "25": "minus_12",
+                "26": "minus_11",
+                "27": "minus_10",
+                "28": "minus_9",
+                "29": "minus_8",
+                "30": "minus_7",
+                "31": "minus_6",
+                "32": "minus_5",
+                "33": "minus_4",
+                "34": "total_mns_five_to_thirtyfive",
+                "35": "minus_3",
+                "36": "minus_2",
+                "37": "minus_1",
+                "38": "upto_cy_cm",
+                "39": "total"
+            },
+            "dataFormulas": {
+                "27": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+            }
+
+        },
+        "Stat-V-B": {
+            "dataRowStart": 6,
+            "dataRowEnd": 27,
+            "dataColumns": {
+                "3": "minus_34",
+                "4": "minus_33",
+                "5": "minus_32",
+                "6": "minus_31",
+                "7": "minus_30",
+                "8": "minus_29",
+                "9": "minus_28",
+                "10": "minus_27",
+                "11": "minus_26",
+                "12": "minus_25",
+                "13": "minus_24",
+                "14": "minus_23",
+                "15": "minus_22",
+                "16": "minus_21",
+                "17": "minus_20",
+                "18": "minus_19",
+                "19": "minus_18",
+                "20": "minus_17",
+                "21": "minus_16",
+                "22": "minus_15",
+                "23": "minus_14",
+                "24": "minus_13",
+                "25": "minus_12",
+                "26": "minus_11",
+                "27": "minus_10",
+                "28": "minus_9",
+                "29": "minus_8",
+                "30": "minus_7",
+                "31": "minus_6",
+                "32": "minus_5",
+                "33": "minus_4",
+                "34": "total_mns_five_to_thirtyfive",
+                "35": "minus_3",
+                "36": "minus_2",
+                "37": "minus_1",
+                "38": "upto_cy_cm",
+                "39": "total"
+            },
+            "dataFormulas": {
+                "27": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+            }
+
+        },
+        "Stat-VI": {
+            "dataRowStart": 7,
+            "dataRowEnd": 7,
+            "dataColumns": {
+                "3": "cases_posted_trail_dur",
+                "4": "cases_in_trail",
+                "5": "cases_posted_trail",
+                "6": "accused_jud_cus_prsnt",
+                "7": "accused_jud_cus_absnt",
+                "8": "accused_on_bail_prsnt",
+                "9": "accused_on_bail_absnt",
+                "10": "accused_on_bail_abscnd",
+                "11": "witns_summoned",
+                "12": "witns_prsnt",
+                "13": "witns_examined",
+                "14": "io_summoned",
+                "15": "io_prsnt",
+                "16": "io_examined",
+                "17": "ofcr_atnd_court_ci",
+                "18": "ofcr_atnd_court_si",
+                "19": "ofcr_atnd_court_asi_hc",
+                "20": "ofcr_atnd_court_pc"
+            }
+
+        },
+        "Stat-VII": {
+            "dataRowStart": 7,
+            "dataRowEnd": 7,
+            "dataColumns": {
+                "3": "ipc_dspsd_sessions_con",
+                "4": "ipc_dspsd_sessions_acq_dis",
+                "5": "ipc_dspsd_jdcl_con",
+                "6": "ipc_dspsd_jdcl_acq_dis",
+                "7": "ipc_dspsd_jdcl_comp",
+                "8": "ipc_dspsd_oc_con",
+                "9": "ipc_dspsd_oc_acq_dis",
+                "10": "ipc_dspsd_oc_comp",
+                "11": "ipc_pndng_total_dspsd",
+                "12": "ipc_pndng_session",
+                "13": "ipc_pndng_judicial",
+                "14": "ipc_pndng_oc",
+                "15": "ipc_pndng_tc_cp"
+            }
+
+        },
+        "Stat-VIII": {
+            "dataRowStart": 7,
+            "dataRowEnd": 7,
+            "dataColumns": {
+                "3": "cases_rep_cm_accused_wntd",
+                "4": "cases_rep_cm_accused_arstd",
+                "5": "cases_rep_cm_accused_surnded",
+                "6": "cases_rep_cm_accused_antc_bail",
+                "7": "cases_rep_py_accused_wntd",
+                "8": "cases_rep_py_accused_arstd",
+                "9": "cases_rep_py_accused_surnded",
+                "10": "cases_rep_py_accused_antc_bail"
+            }
+
+        },
+        "Stat-IX": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "nbw_pndng_mnth_bging",
+                "4": "nbw_pndng_mnth_dur",
+                "5": "nbw_pndng_mnth_excutd",
+                "6": "nbw_pndng_mnth_rtn_court",
+                "7": "nbw_pndng_mnth_pndng_exec",
+                "8": "summons_mnth_bging",
+                "9": "summons_mnth_recv_dur",
+                "10": "summons_mnth_srvd_dur",
+                "11": "summons_mnth_rtn_court",
+                "12": "summons_mnth_pndng_srvc"
+            }
+
+        },
+        "Stat-X": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "no_ui",
+                "4": "cases",
+                "5": "total",
+                "6": "cases_rfrd_by_police",
+                "7": "cases_chr_dur",
+                "8": "cases_still_ui",
+                "9": "no_pndng_cases_rsn_arst_accused",
+                "10": "no_pndng_cases_rsn_mc_pme",
+                "11": "no_pndng_cases_rsn_fsl",
+                "12": "no_pndng_cases_rsn_san_pros",
+                "13": "no_pndng_cases_rsn_court_stay",
+                "14": "no_pndng_cases_rsn_other_dept",
+                "15": "no_pndng_cases_rsn_other_resn"
+            }
+
+        },
+        "Stat-XI": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "no_cases_pndng",
+                "4": "cases_chr",
+                "5": "total",
+                "6": "cases_dspsd",
+                "7": "cases_pt",
+                "8": "cases_pndng_wnt_accused",
+                "9": "cases_pndng_court_stay_ordr",
+                "10": "cases_pndng_non_atdnc_wtns",
+                "11": "cases_pndng_non_atdnc_io",
+                "12": "cases_pndng_other_rsn_wtns",
+                "13": "no_of_pt_trail_not_cmncd_2y",
+                "14": "no_of_pt_com_lok_adalt"
+            }
+
+        },
+        "Stat-XII": {
+            "dataRowStart": 5,
+            "dataRowEnd": 17,
+            "dataColumns": {
+                "3": "cm_cy_rep",
+                "4": "cm_cy_fal",
+                "5": "cm_cy_tru",
+                "6": "cm_cy_cha",
+                "7": "cm_cy_con",
+                "8": "cm_cy_acq",
+                "9": "cm_cy_com",
+                "10": "cm_cy_pt",
+                "11": "cm_cy_un",
+                "12": "cm_cy_ui",
+                "13": "pm_cy_rep",
+                "14": "pm_cy_fal",
+                "15": "pm_cy_tru",
+                "16": "pm_cy_cha",
+                "17": "pm_cy_con",
+                "18": "pm_cy_acq",
+                "19": "pm_cy_com",
+                "20": "pm_cy_pt",
+                "21": "pm_cy_un",
+                "22": "pm_cy_ui",
+                "23": "cm_py_rep",
+                "24": "cm_py_fal",
+                "25": "cm_py_tru",
+                "26": "cm_py_cha",
+                "27": "cm_py_con",
+                "28": "cm_py_acq",
+                "29": "cm_py_com",
+                "30": "cm_py_pt",
+                "31": "cm_py_un",
+                "32": "cm_py_ui"
+            },
+            "dataFormulas": {
+                "17": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+            }
+
+        },
+        "Stat-XII-A": {
+            "dataRowStart": 5,
+            "dataRowEnd": 17,
+            "dataColumns": {
+                "3": "ybly_rep",
+                "4": "ybly_fal",
+                "5": "ybly_tru",
+                "6": "ybly_cha",
+                "7": "ybly_con",
+                "8": "ybly_acq",
+                "9": "ybly_com",
+                "10": "ybly_pt",
+                "11": "ybly_un",
+                "12": "ybly_ui",
+                "13": "bly_rep",
+                "14": "bly_fal",
+                "15": "bly_tru",
+                "16": "bly_cha",
+                "17": "bly_con",
+                "18": "bly_acq",
+                "19": "bly_com",
+                "20": "bly_pt",
+                "21": "bly_un",
+                "22": "bly_ui",
+                "23": "ly_rep",
+                "24": "ly_fal",
+                "25": "ly_tru",
+                "26": "ly_cha",
+                "27": "ly_con",
+                "28": "ly_acq",
+                "29": "ly_com",
+                "30": "ly_pt",
+                "31": "ly_un",
+                "32": "ly_ui",
+                "33": "cy_rep",
+                "34": "cy_fal",
+                "35": "cy_tru",
+                "36": "cy_cha",
+                "37": "cy_con",
+                "38": "cy_acq",
+                "39": "cy_com",
+                "40": "cy_pt",
+                "41": "cy_un",
+                "42": "cy_ui"
+            },
+            "dataFormulas": {
+                "17": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+            }
+
+        },
+        "Stat-XII-B": {
+            "dataRowStart": 5,
+            "dataRowEnd": 17,
+            "dataColumns": {
+                "3": "py_pndng_cases",
+                "4": "py_con",
+                "5": "py_acq",
+                "6": "py_comp",
+                "7": "py_un",
+                "8": "py_con_acq_comp_un",
+                "9": "py_mff",
+                "10": "py_pt",
+                "11": "py_ui",
+                "12": "upto_cases_rgstrd",
+                "13": "upto_con",
+                "14": "upto_acq",
+                "15": "upto_comp",
+                "16": "upto_un",
+                "17": "upto_con_acq_comp_un",
+                "18": "upto_mff",
+                "19": "upto_pt",
+                "20": "upto_ui"
+            },
+            "dataFormulas": {
+                "17": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+            }
+
+        },
+        "Stat-XII-C": {
+            "dataRowStart": 5,
+            "dataRowEnd": 25,
+            "dataColumns": {
+                "3": "cm_ly_rep",
+                "4": "cm_ly_fal",
+                "5": "cm_ly_tru",
+                "6": "cm_ly_cha",
+                "7": "cm_ly_con",
+                "8": "cm_ly_acq",
+                "9": "cm_ly_com",
+                "10": "cm_ly_pt",
+                "11": "cm_ly_un",
+                "12": "cm_ly_ui",
+                "13": "upto_cy_rep",
+                "14": "upto_cy_fal",
+                "15": "upto_cy_tru",
+                "16": "upto_cy_cha",
+                "17": "upto_cy_con",
+                "18": "upto_cy_acq",
+                "19": "upto_cy_com",
+                "20": "upto_cy_pt",
+                "21": "upto_cy_un",
+                "22": "upto_cy_ui"
+            },
+            "dataFormulas": {
+                "25": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+            }
+
+        },
+        "Stat-XIII": {
+            "dataRowStart": 5,
+            "dataRowEnd": 12,
+            "dataColumns": {
+                "3": "cm_cy_rep",
+                "4": "cm_cy_fal",
+                "5": "cm_cy_tru",
+                "6": "cm_cy_cha",
+                "7": "cm_cy_con",
+                "8": "cm_cy_acq",
+                "9": "cm_cy_com",
+                "10": "cm_cy_pt",
+                "11": "cm_cy_un",
+                "12": "cm_cy_ui",
+                "13": "pm_cy_rep",
+                "14": "pm_cy_fal",
+                "15": "pm_cy_tru",
+                "16": "pm_cy_cha",
+                "17": "pm_cy_con",
+                "18": "pm_cy_acq",
+                "19": "pm_cy_com",
+                "20": "pm_cy_pt",
+                "21": "pm_cy_un",
+                "22": "pm_cy_ui",
+                "23": "cm_py_rep",
+                "24": "cm_py_fal",
+                "25": "cm_py_tru",
+                "26": "cm_py_cha",
+                "27": "cm_py_con",
+                "28": "cm_py_acq",
+                "29": "cm_py_com",
+                "30": "cm_py_pt",
+                "31": "cm_py_un",
+                "32": "cm_py_ui"
+            },
+            "dataFormulas": {
+                "12": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+            }
+
+        },
+        "Stat-XIII-A": {
+            "dataRowStart": 5,
+            "dataRowEnd": 12,
+            "dataColumns": {
+                "3": "ybly_rep",
+                "4": "ybly_fal",
+                "5": "ybly_tru",
+                "6": "ybly_cha",
+                "7": "ybly_con",
+                "8": "ybly_acq",
+                "9": "ybly_com",
+                "10": "ybly_pt",
+                "11": "ybly_un",
+                "12": "ybly_ui",
+                "13": "bly_rep",
+                "14": "bly_fal",
+                "15": "bly_tru",
+                "16": "bly_cha",
+                "17": "bly_con",
+                "18": "bly_acq",
+                "19": "bly_com",
+                "20": "bly_pt",
+                "21": "bly_un",
+                "22": "bly_ui",
+                "23": "ly_rep",
+                "24": "ly_fal",
+                "25": "ly_tru",
+                "26": "ly_cha",
+                "27": "ly_con",
+                "28": "ly_acq",
+                "29": "ly_com",
+                "30": "ly_pt",
+                "31": "ly_un",
+                "32": "ly_ui",
+                "33": "cy_rep",
+                "34": "cy_fal",
+                "35": "cy_tru",
+                "36": "cy_cha",
+                "37": "cy_con",
+                "38": "cy_acq",
+                "39": "cy_com",
+                "40": "cy_pt",
+                "41": "cy_un",
+                "42": "cy_ui"
+            },
+            "dataFormulas": {
+                "12": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
+            }
+
+        },
+        "Stat-XIII-B": {
+            "dataRowStart": 5,
+            "dataRowEnd": 12,
+            "dataColumns": {
+                "3": "py_pndng_cases",
+                "4": "py_con",
+                "5": "py_acq",
+                "6": "py_comp",
+                "7": "py_un",
+                "8": "py_con_acq_comp_un",
+                "9": "py_mff",
+                "10": "py_pt",
+                "11": "py_ui",
+                "12": "upto_cases_rgstrd",
+                "13": "upto_con",
+                "14": "upto_acq",
+                "15": "upto_comp",
+                "16": "upto_un",
+                "17": "upto_con_acq_comp_un",
+                "18": "upto_mff",
+                "19": "upto_pt",
+                "20": "upto_ui"
+            },
+            "dataFormulas": {
+                "12": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+            }
+
+        },
+        "Stat-XIV": {
+            "dataRowStart": 5,
+            "dataRowEnd": 5,
+            "dataColumns": {
+                "3": "rtc_no_of_accidents",
+                "4": "rtc_no_of_deaths",
+                "5": "rtc_no_of_injured",
+                "6": "pvt_buses_no_of_accidents",
+                "7": "pvt_buses_no_of_deaths",
+                "8": "pvt_buses_no_of_injured",
+                "9": "lorry_no_of_accidents",
+                "10": "lorry_no_of_deaths",
+                "11": "lorry_no_of_injured",
+                "12": "lmv_no_of_accidents",
+                "13": "lmv_no_of_deaths",
+                "14": "lmv_no_of_injured",
+                "15": "two_wheel_no_of_accidents",
+                "16": "two_wheel_no_of_deaths",
+                "17": "two_wheel_no_of_injured",
+                "18": "three_wheel_no_of_accidents",
+                "19": "three_wheel_no_of_deaths",
+                "20": "three_wheel_no_of_injured",
+                "21": "others_no_of_accidents",
+                "22": "others_no_of_deaths",
+                "23": "others_no_of_injured",
+                "24": "total_no_of_accidents",
+                "25": "total_no_of_deaths",
+                "26": "total_no_of_injured",
+                "27": "no_accidents_nh",
+                "28": "no_accidents_sh",
+                "29": "no_accidents_or"
+            }
+
+        },
+        "Stat-XIV-1": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "gmb_nocb",
+                "4": "gmb_nooa",
+                "5": "gmb_nopa",
+                "6": "gmb_amsz",
+                "7": "mtk_nocb",
+                "8": "mtk_nooa",
+                "9": "mtk_nopa",
+                "10": "mtk_amsz",
+                "11": "ogp_nocb",
+                "12": "ogp_nooa",
+                "13": "ogp_noma",
+                "14": "ogp_nowa",
+                "15": "idp_nocb",
+                "16": "idp_nopa",
+                "17": "opb_nocb",
+                "18": "opb_nopa",
+                "19": "evt_nocb",
+                "20": "evt_nopa",
+                "21": "ebf_nocb",
+                "22": "ebf_nopa",
+                "23": "islt_nocb",
+                "24": "islt_nopa"
+            }
+
+        },
+        "Stat-XIV-II-1": {
+            "dataRowStart": 5,
+            "dataRowEnd": 5,
+            "dataColumns": {
+                "3": "mrdr_gain_profes",
+                "4": "mrdr_gain_non_profes",
+                "5": "by_extrm",
+                "6": "political",
+                "7": "communal",
+                "8": "intr_caste",
+                "9": "faction",
+                "10": "prvus_eminity",
+                "11": "family_disputes",
+                "12": "sexual_jealousy",
+                "13": "petty_quarrel",
+                "14": "land_disputes",
+                "15": "pro_disputes",
+                "16": "water_disputes",
+                "17": "sudden_prvct",
+                "18": "sorcery",
+                "19": "dowry",
+                "20": "dec_acc_not_know",
+                "21": "dec_known_acc_not_known",
+                "22": "other_cases"
+            },
+            "dataFormulas": {
+                "5": [23]
+            }
+        },
+        "Stat-XIV-II-2": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "hd_bus",
+                "4": "hd_lorry",
+                "5": "hd_van_car",
+                "6": "hd_auto",
+                "7": "hd_mc_sc",
+                "8": "hd_cycle",
+                "9": "hd_db_cart",
+                "10": "hd_pedestrain",
+                "11": "hd_running_train",
+                "13": "house",
+                "14": "bank",
+                "15": "shop",
+                "16": "petrol_bunk",
+                "17": "fields",
+                "18": "sheep",
+                "19": "other_cases"
+            },
+            "dataFormulas": {
+                "6": [12, 20]
+            }
+        },
+        "Stat-XIV-II-3": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "hd_bus",
+                "4": "hd_lorry",
+                "5": "hd_van_car",
+                "6": "hd_auto",
+                "7": "hd_mc_sc",
+                "8": "hd_cycle",
+                "9": "hd_db_cart",
+                "10": "hd_pedestrain",
+                "11": "hd_running_train",
+                "13": "house",
+                "14": "bank",
+                "15": "shop",
+                "16": "petrol_bunk",
+                "17": "fields",
+                "18": "sheep",
+                "19": "other_cases"
+            },
+            "dataFormulas": {
+                "6": [12, 20]
+            }
+        },
+        "Stat-XIV-II-4": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "augul_hole",
+                "4": "bolt_hole",
+                "5": "door",
+                "6": "man_wall_hole",
+                "7": "eaves",
+                "8": "lock_brkng",
+                "9": "roof_hole",
+                "10": "thresh_hold",
+                "11": "window",
+                "12": "misc",
+                "13": "total",
+                "14": "no_of_grav_burg"
+            }
+
+        },
+        "Stat-XIV-II-5": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "faction",
+                "4": "political",
+                "5": "extremists",
+                "6": "communal",
+                "7": "pre_enimity",
+                "8": "family_disputes",
+                "9": "sexual_jealousy",
+                "10": "petty_quarrel",
+                "11": "land_disputes",
+                "12": "pro_disputes",
+                "13": "water_disputes",
+                "14": "sorcery",
+                "15": "industrial",
+                "16": "atk_on_police",
+                "17": "atk_on_public_srvnt",
+                "18": "student_rivalary",
+                "19": "misc"
+            },
+            "dataFormulas": {
+                "6": [20]
+            }
+
+        },
+        "Stat-XIV-II-6": {
+            "dataRowStart": 6,
+            "dataRowEnd": 6,
+            "dataColumns": {
+                "3": "elope_false_promise",
+                "4": "posco",
+                "5": "sexual_assault",
+                "7": "sc_st_elope_false_promise",
+                "8": "sc_st_posco",
+                "9": "sc_st_sexual_assault"
+            },
+            "dataFormulas": {
+                "6": [6, 10]
+            }
+
+        },
+        "Stat-XIV-II-6A": {
+            "dataRowStart": 5,
+            "dataRowEnd": 5,
+            "dataColumns": {
+                "3": "no_of_rape_cases",
+                "4": "unknwn_unidntfd",
+                "5": "knwn_acsd_names",
+                "6": "knwn_acsd_cls_family",
+                "7": "knwn_acsd_relatives",
+                "8": "knwn_acsd_ngbur",
+                "9": "knwn_acsd_emplyr_cowrkr",
+                "10": "knwn_acsd_livein",
+                "11": "knwn_acsd_known",
+                "12": "knwn_acsd_other"
+            }
+
+        },
+        "Stat-XV": {
+            "dataRowStart": 4,
+            "dataRowEnd": 10,
+            "dataColumns": {
+                "3": "rm_no_cases_rep",
+                "4": "rm_amount",
+                "5": "rm_no_accused",
+                "6": "rm_no_vctm_deps",
+                "7": "lm_no_cases_rep",
+                "8": "lm_amount",
+                "9": "lm_no_accused",
+                "10": "lm_no_vctm_deps",
+                "11": "cmly_no_cases_rep",
+                "12": "cmly_amount",
+                "13": "cmly_no_accused",
+                "14": "cmly_no_vctm_deps"
+            },
+            "dataFormulas": {
+                "10": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+            }
+
+        },
+        "Stat-XV-A": {
+            "dataRowStart": 4,
+            "dataRowEnd": 10,
+            "dataColumns": {
+                "3": "upto_cy_no_cases_rep",
+                "4": "upto_cy_amount",
+                "5": "upto_cy_no_accused",
+                "6": "upto_cy_no_vctm_deps",
+                "7": "upto_ly_no_cases_rep",
+                "8": "upto_ly_amount",
+                "9": "upto_ly_no_accused",
+                "10": "upto_ly_no_vctm_deps",
+                "11": "upto_bly_no_cases_rep",
+                "12": "upto_bly_amount",
+                "13": "upto_bly_no_accused",
+                "14": "upto_bly_no_vctm_deps"
+            },
+            "dataFormulas": {
+                "10": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+            }
+
+        },
+        "Stat-XVI": {
+            "dataRowStart": 4,
+            "dataRowEnd": 4,
+            "dataColumns": {
+                "3": "no_case_reg",
+                "4": "no_victim_resc",
+                "5": "minors",
+                "6": "no_trafk_arstd",
+                "7": "no_customer_arstd"
+            }
+
+        },
+        "Chain_Snatchings": {
+            "dataRowStart": 3,
+            "dataRowEnd": 3,
+            "dataColumns": {
+                "3": "no_cases",
+                "4": "cases_dtctd",
+                "5": "no_accused_invlvd",
+                "6": "no_accused_arstd",
+                "7": "property_lost",
+                "8": "property_recvrd",
+                "10": "ui_cases"
+            },
+            "dataFormulas": {
+                "3": [9]
+            }
+        }
+    },
+    "1-SCRB": {
+        "SCRB-Stat-I": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "rm_rep",
+                "5": "rm_fal",
+                "6": "rm_tru",
+                "7": "rm_cha",
+                "8": "rm_con",
+                "9": "rm_acq",
+                "10": "rm_com",
+                "11": "rm_pt",
+                "12": "rm_un",
+                "13": "rm_ui",
+                "14": "lm_rep",
+                "15": "lm_fal",
+                "16": "lm_tru",
+                "17": "lm_cha",
+                "18": "lm_con",
+                "19": "lm_acq",
+                "20": "lm_com",
+                "21": "lm_pt",
+                "22": "lm_un",
+                "23": "lm_ui",
+                "24": "cmpy_rep",
+                "25": "cmpy_fal",
+                "26": "cmpy_tru",
+                "27": "cmpy_cha",
+                "28": "cmpy_con",
+                "29": "cmpy_acq",
+                "30": "cmpy_com",
+                "31": "cmpy_pt",
+                "32": "cmpy_un",
+                "33": "cmpy_ui"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-II": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "upto_cy_rep",
+                "5": "upto_cy_fal",
+                "6": "upto_cy_tru",
+                "7": "upto_cy_cha",
+                "8": "upto_cy_con",
+                "9": "upto_cy_acq",
+                "10": "upto_cy_com",
+                "11": "upto_cy_pt",
+                "12": "upto_cy_un",
+                "13": "upto_cy_ui",
+                "14": "upto_ly_rep",
+                "15": "upto_ly_fal",
+                "16": "upto_ly_tru",
+                "17": "upto_ly_cha",
+                "18": "upto_ly_con",
+                "19": "upto_ly_acq",
+                "20": "upto_ly_com",
+                "21": "upto_ly_pt",
+                "22": "upto_ly_un",
+                "23": "upto_ly_ui",
+                "24": "upto_bly_rep",
+                "25": "upto_bly_fal",
+                "26": "upto_bly_tru",
+                "27": "upto_bly_cha",
+                "28": "upto_bly_con",
+                "29": "upto_bly_acq",
+                "30": "upto_bly_com",
+                "31": "upto_bly_pt",
+                "32": "upto_bly_un",
+                "33": "upto_bly_ui"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-IIA": {
+            "dataRowStart": 6,
+            "dataRowEnd": 285,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "no_cases_rep_cm",
+                "5": "no_cases_rep_lm",
+                "6": "no_cases_rep_cmpy"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-III": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "ybly_rep",
+                "5": "ybly_fal",
+                "6": "ybly_tru",
+                "7": "ybly_cha",
+                "8": "ybly_con",
+                "9": "ybly_acq",
+                "10": "ybly_com",
+                "11": "ybly_pt",
+                "12": "ybly_un",
+                "13": "ybly_ui",
+                "14": "bly_rep",
+                "15": "bly_fal",
+                "16": "bly_tru",
+                "17": "bly_cha",
+                "18": "bly_con",
+                "19": "bly_acq",
+                "20": "bly_com",
+                "21": "bly_pt",
+                "22": "bly_un",
+                "23": "bly_ui",
+                "24": "ly_rep",
+                "25": "ly_fal",
+                "26": "ly_tru",
+                "27": "ly_cha",
+                "28": "ly_con",
+                "29": "ly_acq",
+                "30": "ly_com",
+                "31": "ly_pt",
+                "32": "ly_un",
+                "33": "ly_ui"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-IV": {
+            "dataRowStart": 6,
+            "dataRowEnd": 426,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "no_casese_pending_py",
+                "5": "py_con",
+                "6": "py_acq",
+                "7": "py_comp",
+                "8": "py_un",
+                "9": "py_total_4_7",
+                "10": "py_mff",
+                "11": "py_pt",
+                "12": "py_ui",
+                "13": "no_cases_rgstrd_upto_cy",
+                "14": "cy_con",
+                "15": "cy_acq",
+                "16": "cy_comp",
+                "17": "cy_un",
+                "18": "cy_total_13_16",
+                "19": "cy_mff",
+                "20": "cy_pt",
+                "21": "cy_ui"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-V-A": {
+            "dataRowStart": 6,
+            "dataRowEnd": 426,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "minus_34",
+                "5": "minus_33",
+                "6": "minus_32",
+                "7": "minus_31",
+                "8": "minus_30",
+                "9": "minus_29",
+                "10": "minus_28",
+                "11": "minus_27",
+                "12": "minus_26",
+                "13": "minus_25",
+                "14": "minus_24",
+                "15": "minus_23",
+                "16": "minus_22",
+                "17": "minus_21",
+                "18": "minus_20",
+                "19": "minus_19",
+                "20": "minus_18",
+                "21": "minus_17",
+                "22": "minus_16",
+                "23": "minus_15",
+                "24": "minus_14",
+                "25": "minus_13",
+                "26": "minus_12",
+                "27": "minus_11",
+                "28": "minus_10",
+                "29": "minus_9",
+                "30": "minus_8",
+                "31": "minus_7",
+                "32": "minus_6",
+                "33": "minus_5",
+                "34": "minus_4",
+                "35": "total_mns_five_to_thirtyfive",
+                "36": "minus_3",
+                "37": "minus_2",
+                "38": "minus_1",
+                "39": "upto_cy_cm",
+                "40": "total"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-V-B": {
+            "dataRowStart": 6,
+            "dataRowEnd": 426,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "minus_34",
+                "5": "minus_33",
+                "6": "minus_32",
+                "7": "minus_31",
+                "8": "minus_30",
+                "9": "minus_29",
+                "10": "minus_28",
+                "11": "minus_27",
+                "12": "minus_26",
+                "13": "minus_25",
+                "14": "minus_24",
+                "15": "minus_23",
+                "16": "minus_22",
+                "17": "minus_21",
+                "18": "minus_20",
+                "19": "minus_19",
+                "20": "minus_18",
+                "21": "minus_17",
+                "22": "minus_16",
+                "23": "minus_15",
+                "24": "minus_14",
+                "25": "minus_13",
+                "26": "minus_12",
+                "27": "minus_11",
+                "28": "minus_10",
+                "29": "minus_9",
+                "30": "minus_8",
+                "31": "minus_7",
+                "32": "minus_6",
+                "33": "minus_5",
+                "34": "minus_4",
+                "35": "total_mns_five_to_thirtyfive",
+                "36": "minus_3",
+                "37": "minus_2",
+                "38": "minus_1",
+                "39": "upto_cy_cm",
+                "40": "total"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-VI": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "cases_posted_trail_dur",
+                "3": "cases_in_trail",
+                "4": "cases_posted_trail",
+                "5": "accused_jud_cus_prsnt",
+                "6": "accused_jud_cus_absnt",
+                "7": "accused_on_bail_prsnt",
+                "8": "accused_on_bail_absnt",
+                "9": "accused_on_bail_abscnd",
+                "10": "witns_summoned",
+                "11": "witns_prsnt",
+                "12": "witns_examined",
+                "13": "io_summoned",
+                "14": "io_prsnt",
+                "15": "io_examined",
+                "16": "ofcr_atnd_court_ci",
+                "17": "ofcr_atnd_court_si",
+                "18": "ofcr_atnd_court_asi_hc",
+                "19": "ofcr_atnd_court_pc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-VII": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "ipc_dspsd_sessions_con",
+                "3": "ipc_dspsd_sessions_acq_dis",
+                "4": "ipc_dspsd_jdcl_con",
+                "5": "ipc_dspsd_jdcl_acq_dis",
+                "6": "ipc_dspsd_jdcl_comp",
+                "7": "ipc_dspsd_oc_con",
+                "8": "ipc_dspsd_oc_acq_dis",
+                "9": "ipc_dspsd_oc_comp",
+                "10": "ipc_pndng_total_dspsd",
+                "11": "ipc_pndng_session",
+                "12": "ipc_pndng_judicial",
+                "13": "ipc_pndng_oc",
+                "14": "ipc_pndng_tc_cp"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-VIII": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "cases_rep_cm_accused_wntd",
+                "3": "cases_rep_cm_accused_arstd",
+                "4": "cases_rep_cm_accused_surnded",
+                "5": "cases_rep_cm_accused_antc_bail",
+                "6": "cases_rep_py_accused_wntd",
+                "7": "cases_rep_py_accused_arstd",
+                "8": "cases_rep_py_accused_surnded",
+                "9": "cases_rep_py_accused_antc_bail"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-IX": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "nbw_pndng_mnth_bging",
+                "3": "nbw_pndng_mnth_dur",
+                "4": "nbw_pndng_mnth_excutd",
+                "5": "nbw_pndng_mnth_rtn_court",
+                "6": "nbw_pndng_mnth_pndng_exec",
+                "7": "summons_mnth_bging",
+                "8": "summons_mnth_recv_dur",
+                "9": "summons_mnth_srvd_dur",
+                "10": "summons_mnth_rtn_court",
+                "11": "summons_mnth_pndng_srvc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-X": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "no_ui",
+                "3": "cases",
+                "4": "total",
+                "5": "cases_rfrd_by_police",
+                "6": "cases_chr_dur",
+                "7": "cases_still_ui",
+                "8": "no_pndng_cases_rsn_arst_accused",
+                "9": "no_pndng_cases_rsn_mc_pme",
+                "10": "no_pndng_cases_rsn_fsl",
+                "11": "no_pndng_cases_rsn_san_pros",
+                "12": "no_pndng_cases_rsn_court_stay",
+                "13": "no_pndng_cases_rsn_other_dept",
+                "14": "no_pndng_cases_rsn_other_resn"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-XI": {
+            "dataRowStart": 6,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "no_cases_pndng",
+                "3": "cases_chr",
+                "4": "total",
+                "5": "cases_dspsd",
+                "6": "cases_pt",
+                "7": "cases_pndng_wnt_accused",
+                "8": "cases_pndng_court_stay_ordr",
+                "9": "cases_pndng_non_atdnc_wtns",
+                "10": "cases_pndng_non_atdnc_io",
+                "11": "cases_pndng_other_rsn_wtns",
+                "12": "no_of_pt_trail_not_cmncd_2y",
+                "13": "no_of_pt_com_lok_adalt"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-XII": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "cm_cy_tru"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-XII-A": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "cy_tru"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-XIII": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "cm_cy_tru"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-XIII-A": {
+            "dataRowStart": 6,
+            "dataRowEnd": 606,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_name",
+                "2": "head_id",
+                "3": "head_name",
+                "4": "cy_tru"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-RA_FM": {
+            "dataRowStart": 5,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"rtc_no_of_accidents",
+                        "4":"rtc_no_of_deaths",
+                        "5":"rtc_no_of_injured",
+                        "6":"pvt_buses_no_of_accidents",
+                        "7":"pvt_buses_no_of_deaths",
+                        "8":"pvt_buses_no_of_injured",
+                        "9":"lorry_no_of_accidents",
+                        "10":"lorry_no_of_deaths",
+                        "11":"lorry_no_of_injured",
+                        "12":"lmv_no_of_accidents",
+                        "13":"lmv_no_of_deaths",
+                        "14":"lmv_no_of_injured",
+                        "15":"two_wheel_no_of_accidents",
+                        "16":"two_wheel_no_of_deaths",
+                        "17":"two_wheel_no_of_injured",
+                        "18":"three_wheel_no_of_accidents",
+                        "19":"three_wheel_no_of_deaths",
+                        "20":"three_wheel_no_of_injured",
+                        "21":"others_no_of_accidents",
+                        "22":"others_no_of_deaths",
+                        "23":"others_no_of_injured",
+                        "24":"total_no_of_accidents",
+                        "25":"total_no_of_deaths",
+                        "26":"total_no_of_injured",
+                        "27":"no_accidents_nh",
+                        "28":"no_accidents_sh",
+                        "29":"no_accidents_or"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-RA_UPTO": {
+            "dataRowStart": 5,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"rtc_no_of_accidents",
+                        "4":"rtc_no_of_deaths",
+                        "5":"rtc_no_of_injured",
+                        "6":"pvt_buses_no_of_accidents",
+                        "7":"pvt_buses_no_of_deaths",
+                        "8":"pvt_buses_no_of_injured",
+                        "9":"lorry_no_of_accidents",
+                        "10":"lorry_no_of_deaths",
+                        "11":"lorry_no_of_injured",
+                        "12":"lmv_no_of_accidents",
+                        "13":"lmv_no_of_deaths",
+                        "14":"lmv_no_of_injured",
+                        "15":"two_wheel_no_of_accidents",
+                        "16":"two_wheel_no_of_deaths",
+                        "17":"two_wheel_no_of_injured",
+                        "18":"three_wheel_no_of_accidents",
+                        "19":"three_wheel_no_of_deaths",
+                        "20":"three_wheel_no_of_injured",
+                        "21":"others_no_of_accidents",
+                        "22":"others_no_of_deaths",
+                        "23":"others_no_of_injured",
+                        "24":"total_no_of_accidents",
+                        "25":"total_no_of_deaths",
+                        "26":"total_no_of_injured",
+                        "27":"no_accidents_nh",
+                        "28":"no_accidents_sh",
+                        "29":"no_accidents_or"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-GAMB_FM": {
+            "dataRowStart": 4,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"gmb_nocb",
+                        "4":"gmb_nooa",
+                        "5":"gmb_nopa",
+                        "6":"gmb_amsz",
+                        "7":"mtk_nocb",
+                        "8":"mtk_nooa",
+                        "9":"mtk_nopa",
+                        "10":"mtk_amsz",
+                        "11":"ogp_nocb",
+                        "12":"ogp_nooa",
+                        "13":"ogp_noma",
+                        "14":"ogp_nowa",
+                        "15":"idp_nocb",
+                        "16":"idp_nopa",
+                        "17":"opb_nocb",
+                        "18":"opb_nopa",
+                        "19":"evt_nocb",
+                        "20":"evt_nopa",
+                        "21":"ebf_nocb",
+                        "22":"ebf_nopa",
+                        "23":"islt_nocb",
+                        "24":"islt_nopa"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-GAMB_UPTO": {
+            "dataRowStart": 4,
+            "dataRowEnd": 26,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"gmb_nocb",
+                        "4":"gmb_nooa",
+                        "5":"gmb_nopa",
+                        "6":"gmb_amsz",
+                        "7":"mtk_nocb",
+                        "8":"mtk_nooa",
+                        "9":"mtk_nopa",
+                        "10":"mtk_amsz",
+                        "11":"ogp_nocb",
+                        "12":"ogp_nooa",
+                        "13":"ogp_noma",
+                        "14":"ogp_nowa",
+                        "15":"idp_nocb",
+                        "16":"idp_nopa",
+                        "17":"opb_nocb",
+                        "18":"opb_nopa",
+                        "19":"evt_nocb",
+                        "20":"evt_nopa",
+                        "21":"ebf_nocb",
+                        "22":"ebf_nopa",
+                        "23":"islt_nocb",
+                        "24":"islt_nopa"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-MUR-MO_FM": {
+            "dataRowStart": 5,
+            "dataRowEnd": 24,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"mrdr_gain_profes",
+                      "4":"mrdr_gain_non_profes",
+                      "5":"by_extrm",
+                      "6":"political",
+                      "7":"communal",
+                      "8":"intr_caste",
+                      "9":"faction",
+                      "10":"prvus_eminity",
+                      "11":"family_disputes",
+                      "12":"sexual_jealousy",
+                      "13":"petty_quarrel",
+                      "14":"land_disputes",
+                      "15":"pro_disputes",
+                      "16":"water_disputes",
+                      "17":"sudden_prvct",
+                      "18":"sorcery",
+                      "19":"dowry",
+                      "20":"dec_acc_not_know",
+                      "21":"dec_known_acc_not_known",
+                      "22":"other_cases"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-MUR-MO_UPTO": {
+            "dataRowStart": 5,
+            "dataRowEnd": 24,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"mrdr_gain_profes",
+                      "4":"mrdr_gain_non_profes",
+                      "5":"by_extrm",
+                      "6":"political",
+                      "7":"communal",
+                      "8":"intr_caste",
+                      "9":"faction",
+                      "10":"prvus_eminity",
+                      "11":"family_disputes",
+                      "12":"sexual_jealousy",
+                      "13":"petty_quarrel",
+                      "14":"land_disputes",
+                      "15":"pro_disputes",
+                      "16":"water_disputes",
+                      "17":"sudden_prvct",
+                      "18":"sorcery",
+                      "19":"dowry",
+                      "20":"dec_acc_not_know",
+                      "21":"dec_known_acc_not_known",
+                      "22":"other_cases"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-DAC-MO_FM": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"id",
+                          "2":"district_name",
+                          "3":"hd_bus",
+                          "4":"hd_lorry",
+                          "5":"hd_van_car",
+                          "6":"hd_auto",
+                          "7":"hd_mc_sc",
+                          "8":"hd_cycle",
+                          "9":"hd_pedestrain",
+                          "10":"hd_running_train",
+                          "11":"house",
+                          "12":"bank",
+                          "13":"shop",
+                          "14":"petrol_bunk",
+                          "15":"fields",
+                          "16":"sheep",
+                          "17":"other_cases"
+
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-DAC-MO_UPTO": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"id",
+                          "2":"district_name",
+                          "3":"hd_bus",
+                          "4":"hd_lorry",
+                          "5":"hd_van_car",
+                          "6":"hd_auto",
+                          "7":"hd_mc_sc",
+                          "8":"hd_cycle",
+                          "9":"hd_pedestrain",
+                          "10":"hd_running_train",
+                          "11":"house",
+                          "12":"bank",
+                          "13":"shop",
+                          "14":"petrol_bunk",
+                          "15":"fields",
+                          "16":"sheep",
+                          "17":"other_cases"
+
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-ROB-MO_FM": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"hd_bus",
+                        "4":"hd_lorry",
+                        "5":"hd_van_car",
+                        "6":"hd_auto",
+                        "7":"hd_mc_sc",
+                        "8":"hd_cycle",
+                        "9":"hd_pedestrain",
+                        "10":"hd_running_train",
+                        "11":"house",
+                        "12":"bank",
+                        "13":"shop",
+                        "14":"petrol_bunk",
+                        "15":"fields",
+                        "16":"sheep",
+                        "17":"other_cases"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ROB-MO_UPTO": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"hd_bus",
+                        "4":"hd_lorry",
+                        "5":"hd_van_car",
+                        "6":"hd_auto",
+                        "7":"hd_mc_sc",
+                        "8":"hd_cycle",
+                        "9":"hd_pedestrain",
+                        "10":"hd_running_train",
+                        "11":"house",
+                        "12":"bank",
+                        "13":"shop",
+                        "14":"petrol_bunk",
+                        "15":"fields",
+                        "16":"sheep",
+                        "17":"other_cases"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-BUR-MO_FM": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"augul_hole",
+                      "4":"bolt_hole",
+                      "5":"door",
+                      "6":"man_wall_hole",
+                      "7":"eaves",
+                      "8":"lock_brkng",
+                      "9":"roof_hole",
+                      "10":"thresh_hold",
+                      "11":"window",
+                      "12":"misc",
+                      "14":"no_of_grav_burg"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-BUR-MO_UPTO": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"augul_hole",
+                      "4":"bolt_hole",
+                      "5":"door",
+                      "6":"man_wall_hole",
+                      "7":"eaves",
+                      "8":"lock_brkng",
+                      "9":"roof_hole",
+                      "10":"thresh_hold",
+                      "11":"window",
+                      "12":"misc",
+                      "14":"no_of_grav_burg"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-RIOT-MO_FM": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"faction",
+                        "4":"political",
+                        "5":"extremists",
+                        "6":"communal",
+                        "7":"pre_enimity",
+                        "8":"family_disputes",
+                        "9":"sexual_jealousy",
+                        "10":"petty_quarrel",
+                        "11":"land_disputes",
+                        "12":"pro_disputes",
+                        "13":"water_disputes",
+                        "14":"sorcery",
+                        "15":"industrial",
+                        "16":"atk_on_police",
+                        "17":"atk_on_public_srvnt",
+                        "18":"student_rivalary",
+                        "19":"misc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-RIOT-MO_UPTO": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"faction",
+                        "4":"political",
+                        "5":"extremists",
+                        "6":"communal",
+                        "7":"pre_enimity",
+                        "8":"family_disputes",
+                        "9":"sexual_jealousy",
+                        "10":"petty_quarrel",
+                        "11":"land_disputes",
+                        "12":"pro_disputes",
+                        "13":"water_disputes",
+                        "14":"sorcery",
+                        "15":"industrial",
+                        "16":"atk_on_police",
+                        "17":"atk_on_public_srvnt",
+                        "18":"student_rivalary",
+                        "19":"misc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-RAPE-MO_FM": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"elope_false_promise",
+                      "4":"posco",
+                      "5":"sexual_assault",
+                      "6":"sc_st_elope_false_promise",
+                      "7":"sc_st_posco",
+                      "8":"sc_st_sexual_assault"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-RAPE-MO_UPTO": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"elope_false_promise",
+                      "4":"posco",
+                      "5":"sexual_assault",
+                      "6":"sc_st_elope_false_promise",
+                      "7":"sc_st_posco",
+                      "8":"sc_st_sexual_assault"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-RAPE-RELAT": {
+            "dataRowStart": 5,
+            "dataRowEnd": 24,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"no_of_rape_cases",
+                        "4":"unknwn_unidntfd",
+                        "5":"knwn_acsd_names",
+                        "6":"knwn_acsd_cls_family",
+                        "7":"knwn_acsd_relatives",
+                        "8":"knwn_acsd_ngbur",
+                        "9":"knwn_acsd_emplyr_cowrkr",
+                        "10":"knwn_acsd_livein",
+                        "11":"knwn_acsd_known",
+                        "12":"knwn_acsd_other"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ECO-FM": {
+            "dataRowStart": 4,
+            "dataRowEnd": 9,
+            "skipRows": [],
+            "dataColumns": {
+                        "3":"rm_no_cases_rep",
+                        "4":"rm_amount",
+                        "5":"rm_no_accused",
+                        "6":"rm_no_vctm_deps",
+                        "7":"lm_no_cases_rep",
+                        "8":"lm_amount",
+                        "9":"lm_no_accused",
+                        "10":"lm_no_vctm_deps",
+                        "11":"cmly_no_cases_rep",
+                        "12":"cmly_amount",
+                        "13":"cmly_no_accused",
+                        "14":"cmly_no_vctm_deps"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ECO-UPTO": {
+            "dataRowStart": 4,
+            "dataRowEnd": 9,
+            "skipRows": [],
+            "dataColumns": {
+                        "3":"upto_cy_no_cases_rep",
+                        "4":"upto_cy_amount",
+                        "5":"upto_cy_no_accused",
+                        "6":"upto_cy_no_vctm_deps",
+                        "7":"upto_ly_no_cases_rep",
+                        "8":"upto_ly_amount",
+                        "9":"upto_ly_no_accused",
+                        "10":"upto_ly_no_vctm_deps",
+                        "11":"upto_bly_no_cases_rep",
+                        "12":"upto_bly_amount",
+                        "13":"upto_bly_no_accused",
+                        "14":"upto_bly_no_vctm_deps"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-ITPA-FM": {
+            "dataRowStart": 4,
+            "dataRowEnd": 23,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"no_case_reg",
+                      "4":"no_victim_resc",
+                      "5":"minors",
+                      "6":"no_trafk_arstd",
+                      "7":"no_customer_arstd"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ITPA-UPTO": {
+            "dataRowStart": 4,
+            "dataRowEnd": 23,
+            "skipRows": [],
+            "dataColumns": {
+                      "1":"id",
+                      "2":"district_name",
+                      "3":"no_case_reg",
+                      "4":"no_victim_resc",
+                      "5":"minors",
+                      "6":"no_trafk_arstd",
+                      "7":"no_customer_arstd"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Chain_Snatchings-FM": {
+            "dataRowStart": 3,
+            "dataRowEnd": 22,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"id",
+                        "2":"district_name",
+                        "3":"no_cases",
+                        "4":"cases_dtctd",
+                        "5":"no_accused_invlvd",
+                        "6":"no_accused_arstd",
+                        "7":"property_lost",
+                        "8":"property_recvrd",
+                        "9":"prsnt_recvrd",
+                        "10":"ui_cases"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-PRE_DATA": {
+            "dataRowStart": 4,
+            "dataRowEnd": 9,
+            "skipRows": [],
+            "dataColumns": {
+              "1":"report_year",
+              "2":"report_month",
+              "3":"women",
+              "4":"sc_st",
+              "5":"road_accidents",
+              "6":"death",
+              "7":"injured"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "2-SCRB": {
+        "SCRB-Stat-ECM": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                        "1": "sno",
+                        "2": "district_name",
+                        "3": "crime_no",
+                        "4": "rec_date",
+                        "5": "inv_date",
+                        "6":  "rec_place",
+                        "7": "itrgt_vip",
+                        "8": "itrgt_public",
+                        "9": "itrgt_religious",
+                        "10": "itrgt_security",
+                        "11": "itrgt_pub_prop",
+                        "12": "itrgt_gov_prop",
+                        "13": "itrgt_pub_transport",
+                        "14": "itrgt_hospital",
+                        "15": "itrgt_edu",
+                        "16": "itrgt_pvt_carriers",
+                        "17": "itrgt_r_b_r",
+                        "18": "itrgt_key_inst",
+                        "19": "itrgt_others",
+                        "20": "itrgt_brief",
+                        "21": "mtv_political",
+                        "22": "mtv_terrorist_act",
+                        "23": "mtv_crime",
+                        "24": "sam_ah",
+                        "25": "sam_cw",
+                        "26": "sam_rc",
+                        "27": "sam_timed",
+                        "28": "sam_ac",
+                        "29": "sam_lm",
+                        "30": "sam_not_know",
+                        "31": "sam_brief",
+                        "32": "db_yes",
+                        "33": "db_no",
+                        "34": "asc_yes",
+                        "35": "asc_no",
+                        "36": "freq_edu",
+                        "37": "freq_weekly",
+                        "38": "freq_as_req",
+                        "39": "freq_not_know",
+                        "40": "freq_not_aplcble",
+                        "41": "iedsame_yes",
+                        "42": "sketch_loc_nspp",
+                        "43": "sketch_vlg_popltd",
+                        "44": "sketch_near_nbhb",
+                        "45": "sketch_surnd_area",
+                        "46": "sketch_dir_trgt",
+                        "47": "photo_ied",
+                        "48": "photo_mech",
+                        "49": "photo_circuit",
+                        "50": "photo_explosive",
+                        "51": "photo_loc",
+                        "52": "miltnt_org_area",
+                        "53": "suspctd_org_invld",
+                        "54": "ia_name"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-ESM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "crime_no",
+                "4": "date_of_occurrence",
+                "5": "accused_name",
+                "6": "name_full_qualfy_invstgtn",
+                "7": "licence_manufactured",
+                "8": "brief_facts_of_case"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "3-SCRB": {
+        "SCRB-Stat-EOP": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "fir_no",
+                "5": "sec_of_law",
+                "6": "escape_from_ps",
+                "7": "escape_date",
+                "8": "name_of_prsn",
+                "9": "father_husband_name",
+                "10": "sex",
+                "11": "height",
+                "12": "dob_age",
+                "13": "built",
+                "14": "complexion",
+                "15": "face_type",
+                "16": "peculiarity_colour",
+                "17": "colour_of_hairs",
+                "18": "deformities_ifany",
+                "19": "identification_marks",
+                "20": "adrs",
+                "21": "brief_facts_of_case"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-EOP-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "4-SCRB": {
+        "SCRB-Stat-SSM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "crime_no",
+                "5": "sec_of_law",
+                "6": "date_occur",
+                "7": "accu_name",
+                "8": "accu_adrs",
+                "9": "brf_of_case",
+                "10": "stage_of_case",
+                "11": "remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-SSM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "5-SCRB": {
+        "SCRB-Stat-FARTM": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "source_of_plfrg_theft_loss",
+                "4": "type_of_arms_ammunition",
+                "5": "make",
+                "6": "number",
+                "7": "bore",
+                "8": "quantity",
+                "9": "circumstances_of_loss",
+                "10": "action_taken",
+                "11": "dtls_of_wepns_rcvrd",
+                "12": "remarks"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-FARRM": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "type_of_illgl_arms_ammunition",
+                "3": "body_no",
+                "4": "bore_caliber",
+                "5": "quantity",
+                "6": "source_of_origin_indian_foreign",
+                "7": "no_of_prsns_apprehended",
+                "8": "no_of_prsns_prosecuted",
+                "9": "no_of_prsns_convicted",
+                "10": "fir_no",
+                "11": "sec_of_law",
+                "12": "ps",
+                "13": "district_name",
+                "14": "month_year"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-FARMM": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "no_of_raids_conducted",
+                "4": "no_of_units_manufacturing",
+                "5": "name_of_place_unearthed",
+                "6": "type_of_wepn_rcvrd",
+                "7": "no_of_wepns_ammunitions_rcvrd",
+                "8": "no_of_prsns_apprehended",
+                "9": "no_of_prsns_prosecuted",
+                "10": "no_of_prsns_convicted",
+                "11": "remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "6-SCRB": {
+        "SCRB-Stat-IAAM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"sno",
+                          "2":"district_name",
+                          "3":"no_of_aamu",
+                          "4":"no_of_arms_rcrvd",
+                          "5":"amnt_of_ammuntion_rcrvd",
+                          "6":"no_of_lllicit_unlinced_szd",
+                          "7":"no_of_cases_rgstrd",
+                          "8":"no_of_cases_filed_in_court",
+                          "9":"remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "7-SCRB": {
+        "SCRB-Stat-FALNCM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "fir_no",
+                "3": "sec_of_law",
+                "4": "date_of_fir",
+                "5": "bore_no",
+                "6": "type_of_weapons",
+                "7": "weapon_no",
+                "8": "ps",
+                "9": "district_name",
+                "10": "lost_recvrd_szd",
+                "11": "remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "8-SCRB": {
+        "SCRB-Stat-RM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "crime_no",
+                "5": "sec_of_law",
+                "6": "date_of_occur",
+                "7": "accu_name",
+                "8": "accu_adrs",
+                "9": "brf_of_case",
+                "10": "stage_of_case",
+                "11": "reamrks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-RM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "9-SCRB": {
+        "SCRB-Stat-AAM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1":"sno",
+                "2":"district_name",
+                "3":"ps",
+                "4":"crime_no",
+                "5":"sec_of_law",
+                "6":"date_of_ocrnce",
+                "7":"date_of_rep",
+                "8":"place_of_ocrnce",
+                "9":"cmplnt_name",
+                "10":"adrs_of_cmplnt",
+                "11":"victim_name",
+                "12":"adrs_of_victim",
+                "13":"status_of_victim",
+                "14":"mtve_of_ofnc",
+                "15":"no_of_accused_involved",
+                "16":"no_of_accused_arstd",
+                "17":"no_of_accused_ytb_arstd",
+                "18":"name_of_accused_arstd",
+                "19":"adrs_of_accused_arstd",
+                "20":"identity_test_cndctd_not",
+                "21":"stmnt_recorded",
+                "22":"exgretia_ancd_by_gov",
+                "23":"facts_of_case",
+                "24":"stage_of_case",
+                "25":"source_of_procurement_of_acid"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-AAM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "10-SCRB": {
+        "SCRB-Stat-CSM": {
+            "dataRowStart": 3,
+            "skipRows": [],
+            "dataColumns": {
+                "2": "district_name",
+                "3": "no_of_calls_rcvd",
+                "4": "no_of_calls_enqrd",
+                "5": "no_of_calls_action_ytb_tkn"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "11-SCRB": {
+        "SCRB-Stat-LAM": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "crime_no",
+                "4": "sec_of_law",
+                "5": "date_of_fir",
+                "6": "name_ps",
+                "7": "name_court",
+                "8": "nature_of_dspsl",
+                "9": "date_of_dspsl"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-LAM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "12-SCRB": {
+        "SCRB-MISS-PER": {
+            "dataRowStart": 6,
+            "dataRowEnd": 25,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "no_of_case",
+                "4": "boy_miss",
+                "5": "girl_miss",
+                "6": "women_miss",
+                "7": "man_miss",
+                "8": "boy_trc",
+                "9": "girl_trc",
+                "10": "woman_trc",
+                "11": "man_trc",
+                "12": "boy_untrc",
+                "13": "girl_untrc",
+                "14": "woman_untrc",
+                "15": "man_utrc",
+                "16": "conv_kid_abd",
+                "17": "conv_sex_abuse",
+                "18": "conv_murder",
+                "19": "remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-MISS-CHILD": {
+            "dataRowStart": 6,
+            "dataRowEnd": 21,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "tn_reported_miss",
+                "4": "tn_sd_gd_logd",
+                "5": "tn_firs_registered",
+                "6": "mpto_from_cstdy",
+                "7": "mpto_from_sex_expsl",
+                "8": "mpto_from_cl_bl",
+                "9": "mpt_from_ds",
+                "10": "mpto_from_bm",
+                "11": "mpto_frcd_mrg",
+                "12": "death_due_crime",
+                "13": "accidental_death",
+                "14": "death_other_resn",
+                "15": "mpto_not_cat_6_12"
+
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "13-SCRB": {
+        "SCRB-Ann-I-A": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"murder",
+                          "4":"hurt",
+                          "5":"rape",
+                          "6":"arson",
+                          "7":"other_ipc",
+                          "8":"poa",
+                          "9":"pcr"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-I-B": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"murder",
+                          "4":"hurt",
+                          "5":"rape",
+                          "6":"arson",
+                          "7":"other_ipc",
+                          "8":"poa",
+                          "9":"pcr"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-II-A": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_reg_dur_year",
+                          "6":"chalg_filed_court",
+                          "7":"noc_closed_invest"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-II-B": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_reg_dur_year",
+                          "6":"chalg_filed_court",
+                          "7":"noc_closed_invest"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-III-A": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_reg_dur_year",
+                          "6":"chalg_filed_court",
+                          "7":"noc_closed_invest"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-III-B": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_reg_dur_year",
+                          "6":"chalg_filed_court",
+                          "7":"noc_closed_invest"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-IV-A": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_rec",
+                          "6":"noc_disposed",
+                          "7":"noc_acq",
+                          "8":"noc_con",
+                          "9":"crpc"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-IV-B": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"noc_bf",
+                          "4":"noc_rec",
+                          "6":"noc_disposed",
+                          "7":"noc_acq",
+                          "8":"noc_con",
+                          "9":"crpc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-AnnVA": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"rep",
+                          "2":"tru",
+                          "3":"fls",
+                          "4":"cha",
+                          "5":"un",
+                          "6":"ui",
+                          "8":"total_in_pt",
+                          "9":"acq",
+                          "10":"dis_cha",
+                          "11":"con"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-AnnVB": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"rep",
+                        "2":"tru",
+                        "3":"fls",
+                        "4":"cha",
+                        "5":"un",
+                        "6":"ui",
+                        "8":"total_in_pt",
+                        "9":"acq",
+                        "10":"dis_cha",
+                        "11":"con"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-AnnVC": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"district_name",
+                          "2":"no_case",
+                          "3":"no_victim",
+                          "4":"dtls_rehab_arng",
+                          "5":"pend_dtls"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-VIA": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"no_case",
+                          "3":"male",
+                          "4":"female"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Ann-VIB": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                        "2":"no_case",
+                        "3":"male",
+                        "4":"female"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-POA": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "2":"district_name",
+                          "3":"rep_case",
+                          "4":"ui_case",
+                          "5":"pt_case",
+                          "6":"dbc_con",
+                          "7":"dbc_acq",
+                          "8":"dbc_com",
+                          "9":"dbp_false",
+                          "10":"dbp_mstk_fact",
+                          "11":"dbp_mstk_law",
+                          "12":"dbp_un"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "14-SCRB": {
+        "SCRB-PART-A": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_id",
+                "2": "district_name",
+                "3": "under_ipc",
+                "4": "under_ndps",
+                "5": "under_explosive",
+                "6": "under_unlawful"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-PART-B": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_id",
+                "2": "district_name",
+                "3": "ou_ipc",
+                "4": "ou_arms",
+                "5": "ou_wlid_life",
+                "6": "ou_imrtl_traffic",
+                "7": "ou_prvnt_crptn",
+                "8": "ou_explosives",
+                "9": "ou_antiquities",
+                "10": "ou_security_exch",
+                "11": "ou_custom",
+                "12": "ou_bounded_lbr",
+                "13": "ou_child_lbr",
+                "14": "ou_transplantation",
+                "15": "ou_juvenile_justice",
+                "16": "ou_emigration",
+                "17": "ou_passport",
+                "18": "ou_foreigners",
+                "19": "ou_copy_right",
+                "20": "ou_trade_marks",
+                "21": "ou_it",
+                "22": "ou_biological_dvrsty",
+                "23": "ou_farmer_rights",
+                "24": "ou_env_protection",
+                "25": "ou_water",
+                "26": "ou_air",
+                "27": "ou_suppressions"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-PART-C": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_id",
+                "2": "district_name",
+                "3": "no_cr_part_a",
+                "4": "no_cr_part_b",
+                "5": "no_cr_under_ipc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ML-II": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                    "1":"sno",
+                    "2":"district_name",
+                    "3":"name_of_agency",
+                    "4":"fir_no_date_info",
+                    "5":"address",
+                    "6":"predicate_offence",
+                    "7":"brief_facts",
+                    "8":"details_accused",
+                    "9":"details_properties",
+                    "10":"movable",
+                    "11":"offences",
+                    "12":"prsnt_position_case",
+                    "13":"remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "15-SCRB": {
+        "SCRB-A-IPC": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "cases_reg_dur_month",
+                "4": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-B-SLL": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "cases_reg_dur_month",
+                "4": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-C-WOMEN": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "cases_reg_dur_month",
+                "4": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-D-CHILDREN": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "cases_reg_dur_month",
+                "4": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-E-SCs": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "4": "cases_reg_dur_month",
+                "5": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-F-STs": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "4": "cases_reg_dur_month",
+                "5": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-G-SENIOR": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "cases_reg_dur_month",
+                "4": "person_arst_dur_month"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-H-MURDER_CULPABLE": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "no_of_cases_murder",
+                "4": "no_of_cases_notamt_murder"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-I-POLICE": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "4": "no_of_cases_rep_on_police",
+                "5": "no_of_victims",
+                "6": "no_of_police_invol"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-J-DEATHS": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "no_of_cases_reg",
+                "4": "no_of_person_died",
+                "5": "no_of_person_inj",
+                "6": "no_of_cases_charge_sheet_laid",
+                "7": "no_of_cases_disposed"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-K-FIRING": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+              "3": "cases_rep",
+              "4": "civ_no_of_person_killed",
+              "5": "police_no_of_person_killed",
+              "6": "civ_no_of_person_inj",
+              "7": "police_no_of_person_inj"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-L-OFFENCES": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "3": "no_of_cases_reg",
+                "4": "no_of_person_died",
+                "5": "no_of_person_inj"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "16-SCRB": {
+        "SCRB-CFT-CURCY_SEIZED": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "ps_dist",
+                "3": "fir_date",
+                "4": "act_sections",
+                "5": "date_place",
+                "6": "denomination",
+                "7": "series_number_of_notes",
+                "8": "crncy_dsgn_apwm_mgwm",
+                "9": "follourescent_prsnt_yes_no",
+                "10": "security_thread_yes_no",
+                "11": "pieces_of_notes_coins",
+                "12": "source_of_seized_crncy",
+                "13": "no_of_accused",
+                "14": "accused_details",
+                "15": "nationality_ocptn_rlgn",
+                "16": "prsnt_adrs",
+                "17": "prmnt_adrs",
+                "18": "physical_identifications",
+                "19": "lang_dialect_spoken",
+                "20": "no_of_past_convictions",
+                "21": "gang_case_yes_no",
+                "22": "remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-DISPOSAL_OF_COUNTERFIET": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "ps_dist_fir_date",
+                "3": "date_dspcl",
+                "4": "name_parent",
+                "5": "prmnt_adrs",
+                "6": "date_of_dspsl_by_court",
+                "7": "sec_of_law_under_convicted",
+                "8": "name_parent_acq",
+                "9": "period_of_pnshmnt_agnst_each"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-SERIES_NUMBERS": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "ps_dist",
+                "3": "fir_date",
+                "4": "series_no_of_notes1",
+                "5": "series_no_of_notes2",
+                "6": "series_no_of_notes3",
+                "7": "series_no_of_notes4"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-FICN": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                        "1":"sno",
+                        "2":"district_name",
+                        "3":"agency",
+                        "4":"running_sr_no",
+                        "5":"fir_no",
+                        "6":"fir_date",
+                        "7":"case_rprt_date",
+                        "8":"sec_of_law",
+                        "9":"amt_invlvd",
+                        "10":"evdnc_brief",
+                        "11":"case_details",
+                        "12":"type_offence",
+                        "13":"acts_sec",
+                        "14":"cases_search_details",
+                        "15":"seizure_details",
+                        "16":"arsted_absconders",
+                        "17":"offender_details",
+                        "18":"address_details",
+                        "19":"associates_details",
+                        "20":"bank_details",
+                        "21":"assets_details",
+                        "22":"prvus_offences_case",
+                        "23":"reference_other_agencies"
+            },
+            "dataFormulas": {
+
+            }
+        },
+
+        "SCRB-DISPOSAL_FICN": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "fir_law_ps",
+                "4": "gist_incdnt",
+                "5": "name_detail",
+                "6": "seizure_ficn_denom",
+                "7": "date_filling_chrg_sheet",
+                "8": "prgrs_case",
+                "9": "out_come_convct_acq"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "17-SCRB": {
+        "SCRB-SUICIDES": {
+            "dataRowStart": 3,
+            "skipRows": [],
+            "dataColumns": {
+                "1":"sno",
+                "2": "district_name",
+                "3": "crime_no",
+                "4": "sec_of_law",
+                "5": "date_of_rep",
+                "6": "dtls_of_dece",
+                "7": "occupation",
+                "8": "brf_fact_of_case",
+                "9": "resn_for_death"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-FARMERS": {
+            "dataRowStart": 3,
+            "skipRows": [],
+            "dataColumns": {
+              "1":"sno",
+              "2": "district_name",
+              "3": "crime_no",
+              "4": "sec_of_law",
+              "5": "date_of_rep",
+              "6": "dtls_of_dece",
+              "7": "occupation",
+              "8": "brf_fact_of_case",
+              "9": "resn_for_death"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-REASON_SUICIDES": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "domestic",
+                "4": "ill_health",
+                "5": "pvrty_financ_prb",
+                "6": "fail_in_love_exams",
+                "7": "illicit_contacts",
+                "8": "frmr_sucid",
+                "9": "starvation",
+                "10": "otr_resn"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "18-SCRB": {
+        "SCRB-CYBER": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "fir",
+                "5": "sol",
+                "6": "brf_of_case",
+                "7": "stg_of_case"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-CYBER-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "19-SCRB": {
+        "SCRB-CIGAR": {
+            "dataRowStart": 6,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "sec4_noc",
+                "4": "sec4_fc",
+                "5": "sec5_noc",
+                "6": "sec5_fc",
+                "7": "sec6_noc",
+                "8": "sec6_fc",
+                "9": "sec7_noc",
+                "10": "sec7_fc"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "20-SCRB": {
+        "SCRB-VIDEO": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "nocb",
+                "4": "nopi",
+                "5": "nopa",
+                "6": "no_ca_eq_sz",
+                "7": "wop",
+                "8": "ui",
+                "9": "pt",
+                "10": "con",
+                "11": "acq",
+                "12": "resn_for_acq"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "21-SCRB": {
+        "SCRB-CLUBS_CLOSING": {
+            "dataRowStart":4,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"sno",
+                          "2":"district_name",
+                          "3":"ps",
+                          "4":"circle",
+                          "5":"sub_div",
+                          "6":"club_adrs",
+                          "7":"reg_unreg",
+                          "8":"if_reg_dtls",
+                          "9":"cnts_adrs",
+                          "10":"doc",
+                          "11":"crnf"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "22-SCRB": {
+        "SCRB-Stat-RPM": {
+            "dataRowStart": 3,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "crime_no",
+                "5": "sec_of_law",
+                "6": "date_occ",
+                "7": "date_report",
+                "8": "brief_facts",
+                "9": "details_police",
+                "10": "action_taken",
+                "11": "stage_cases",
+                "12": "prsnt_stage"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-RPM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-ROTPM": {
+            "dataRowStart": 3,
+            "skipRows": [],
+            "dataColumns": {
+              "1": "sno",
+              "2": "district_name",
+              "3": "ps",
+              "4": "crime_no",
+              "5": "sec_of_law",
+              "6": "date_occ",
+              "7": "date_report",
+              "8": "brief_facts",
+              "9": "details_police",
+              "10": "action_taken",
+              "11": "stage_cases",
+              "12": "prsnt_stage"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-ROTPM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "23-SCRB": {
+        "SCRB-Stat-CDM": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "sno",
+                "2": "district_name",
+                "3": "ps",
+                "4": "crime_no",
+                "5": "sec_of_law",
+                "6": "date_occ",
+                "7": "date_report",
+                "8": "cause_death",
+                "9": "action_against",
+                "10": "brief_facts",
+                "11": "me_je_ordrd_not",
+                "12": "prsnt_stage"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Stat-CDM-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "24-SCRB": {
+        "SCRB-Proforma-1": {
+            "dataRowStart":9,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"rep_dur",
+                          "4":"cha_shtd",
+                          "5":"dspsl_off_ow_by_ploice",
+                          "6":"pndng_invstgtn",
+                          "7":"cnvctd_by_court",
+                          "8":"acquitted_dschrged_court",
+                          "9":"pndng_trials",
+                          "10":"prsn_arstd_m",
+                          "11":"prsn_arstd_f",
+                          "12":"prsn_arstd_tr",
+                          "13":"prsns_cha_shtd_m",
+                          "14":"prsns_cha_shtd_f",
+                          "15":"prsns_cha_shtd_tr",
+                          "16":"prsns_cnvctd_m",
+                          "17":"prsns_cnvctd_f",
+                          "18":"prsns_cnvctd_tr",
+                          "19":"prsns_acquitted"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Proforma-2": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"trafficking",
+                          "4":"clientale",
+                          "5":"financiers",
+                          "6":"spotters",
+                          "7":"pimps",
+                          "8":"brothel_keepers",
+                          "9":"harbourers",
+                          "10":"transporters",
+                          "11":"sellers",
+                          "12":"buyers",
+                          "13":"recutiers",
+                          "14":"others"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Proforma-3": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"blw_5y",
+                          "4":"five_years_abv_blw_ten_years",
+                          "5":"ten_years_abv",
+                          "6":"total_covcts",
+                          "7":"brthls_clsd",
+                          "8":"prcds_crm_cnfsctd"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Proforma-4": {
+            "dataRowStart":8,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"tnvrt_blw_18",
+                          "4":"tnvrt_18_abv",
+                          "5":"tnvrt_total",
+                          "6":"tntvr_blw_18y_oor_cm",
+                          "7":"tntvr_blw_18y_oor_pm",
+                          "8":"tntvr_18y_abv_oor_cm",
+                          "9":"tntvr_18y_abv_oor_pm",
+                          "10":"tntvr_vctm_rscd_oor_cm",
+                          "11":"tntvr_vctm_rscd_oor_pm",
+                          "12":"tntvr_total",
+                          "13":"ntnlty_rscd_vctm_indian",
+                          "14":"ntnlty_rscd_vctm_bangladesh",
+                          "15":"ntnlty_rscd_vctm_nepal",
+                          "16":"ntnlty_rscd_vctm_srilanka",
+                          "17":"ntnlty_rscd_vctm_other",
+                          "18":"total_no",
+                          "19":"no_vctms_rcmnded_cmpnstn_cm"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Proforma-5": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"sxul_expo_prost",
+                          "4":"other_sxul_expo",
+                          "5":"frcd_lbr",
+                          "6":"frcd_mrg",
+                          "7":"begging",
+                          "8":"drug_pedding",
+                          "9":"petty_crime",
+                          "10":"domestic_servitude",
+                          "11":"rmvl_of_orgns",
+                          "12":"child_pronography",
+                          "13":"other_resns"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "25-SCRB": {
+        "SCRB-Stat-OFBPM": {
+            "dataRowStart": 5,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "district_id",
+                "2": "district_name",
+                "3": "no_police_opend_fire_rio_unlaw",
+                "4": "rounds_fired",
+                "5": "no_catrgd_used_no_csual_ocrd",
+                "6": "no_injury_caused_no_death",
+                "7": "no_death_caused",
+                "8": "mag_jud_enq_ordrd_held",
+                "9": "mag_jud_pending",
+                "10": "mag_jud_awaited",
+                "11": "mag_jud_justified"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "26-SCRB": {
+        "SCRB-PERFORMANCE_INDICATORS": {
+            "dataRowStart":4,
+            "skipRows": [],
+            "dataColumns": {
+                "5": "rprtd_cm",
+                "6": "rprtd_pm",
+                "7": "rprtd_cmpy"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "month1",
+                "2": "year1",
+                "3": "month2",
+                "4": "year2",
+                "5": "month3",
+                "6": "year3"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "51-SCRB": {
+        "SCRB-Q_ANN_1": {
+            "dataRowStart":5,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                        "3":"fatal_no_accidents",
+                        "4":"fatal_no_deaths",
+                        "5":"grvus_no_accidents",
+                        "6":"grvus_no_injrs",
+                        "7":"minor_injr_no_accidents",
+                        "8":"minor_injr_no_injrs",
+                        "9":"non_injr_no_accidents",
+                        "10":"total_no_accidents"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Q_ANN_2": {
+            "dataRowStart":5,
+            "dataRowEnd": 13,
+            "skipRows": [],
+            "dataColumns": {
+                          "3":"fatal_no_accidents",
+                          "4":"fatal_no_deaths",
+                          "5":"grvus_no_accidents",
+                          "6":"grvus_no_injrs",
+                          "7":"minor_injr_no_accidents",
+                          "8":"minor_injr_no_injrs",
+                          "9":"non_injr_no_accidents",
+                          "10":"total_no_accidents"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Q_ANN_3": {
+            "dataRowStart":5,
+            "dataRowEnd": 11,
+            "skipRows": [],
+            "dataColumns": {
+                        "3":"fatal_no_accidents",
+                        "4":"fatal_no_deaths",
+                        "5":"grvus_no_accidents",
+                        "6":"grvus_no_injrs",
+                        "7":"minor_injr_no_accidents",
+                        "8":"minor_injr_no_injrs",
+                        "9":"non_injr_no_accidents",
+                        "10":"total_no_accidents"
+
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd":7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "52-SCRB": {
+        "SCRB-ITPA_ANN_I": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+              "1":"district_id",
+              "2":"district_name",
+              "3":"no_spl_police_ofcrs",
+              "4":"no_advsry_brd_cnstutd"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ITPA_ANN_II": {
+            "dataRowStart":7,
+            "skipRows": [],
+            "dataColumns": {
+                        "2":"no_of_cases_rgstrd",
+                        "3":"no_of_prsn_arstd_men",
+                        "4":"no_of_prsn_arstd_women",
+                        "5":"no_of_cases_chrgshtd",
+                        "6":"no_of_prsn_chrgshtd_men",
+                        "7":"no_of_prsn_chrgshtd_women",
+                        "8":"no_of_cases_trail_cmpltd",
+                        "9":"no_of_cases_ended_conviction",
+                        "10":"no_of_prsn_convicted_men",
+                        "11":"no_of_prsn_convicted_women",
+                        "12":"no_of_cases_ended_dis_acq",
+                        "13":"no_of_prsn_dis_acq_men",
+                        "14":"no_of_prsn_dis_acq_women"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-ITPA_ANN_III": {
+            "dataRowStart":7,
+            "skipRows": [],
+            "dataColumns": {
+                          "1":"district_id",
+                          "2":"district_name",
+                          "3":"no_of_trfkg_cases_rgstrd",
+                          "4":"no_of_prsn_arstd_men",
+                          "5":"no_of_prsn_arstd_women",
+                          "6":"no_of_cases_chrgshtd",
+                          "7":"no_of_prsn_chrgshtd_men",
+                          "8":"no_of_prsn_chrgshtd_women",
+                          "9":"no_of_cases_trail_cmpltd",
+                          "10":"no_of_cases_ended_conviction",
+                          "11":"no_of_prsn_convicted_men",
+                          "12":"no_of_prsn_convicted_women",
+                          "13":"no_of_cases_dis_acq_men",
+                          "14":"no_of_cases_dis_acq_women",
+                          "15":"no_of_prsn_dis_acq_men",
+                          "16":"no_of_prsn_dis_acq_women"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "53-SCRB": {
+        "SCRB-Prof_Gangs_Kidnap": {
+            "dataRowStart":4,
+            "skipRows": [],
+            "dataColumns": {
+                        "1": "sno",
+                        "2":"district_name",
+                        "3":"crime_no",
+                        "4":"sec_of_law",
+                        "5":"date_report",
+                        "6":"date_occ",
+                        "7":"place_occ",
+                        "8":"name_accused",
+                        "9":"address_accused",
+                        "10":"brief_facts",
+                        "11":"prsnt_stage",
+                        "12":"conviction_particulars",
+                        "13":"date_release_jail"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Prof_Gangs_Kidnap-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "54-SCRB": {
+        "SCRB-Arms_Licence_Proforma": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                        "1": "sno",
+                        "2":"district_name",
+                        "3":"name_firm",
+                        "4":"no_date_licence",
+                        "5":"name_authority",
+                        "6":"ammunition_prior",
+                        "7":"date_grant_licence",
+                        "8":"annual_quota",
+                        "9":"other_items_manuf",
+                        "10":"production_topped",
+                        "11":"date_licence_renewed",
+                        "12":"arms_act_violation_lapses"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Arms_Licence_Proforma-CNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "55-SCRB": {
+        "SCRB-Arms_Manufacturer": {
+            "dataRowStart":6,
+            "skipRows": [],
+            "dataColumns": {
+                          "1": "sno",
+                          "2":"district_name",
+                          "3":"licnc_no_issue_date",
+                          "4":"name_address_licnc",
+                          "5":"category_arms",
+                          "6":"description_arms",
+                          "7":"category_ammunition",
+                          "8":"description_ammunition",
+                          "9":"prps_acquired",
+                          "10":"period_licnc",
+                          "11":"remarks"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-Arms_Manufacturer-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+    "56-SCRB": {
+        "SCRB-State_Govt_UTS": {
+            "dataRowStart":5,
+            "skipRows": [],
+            "dataColumns": {
+                          "1": "sno",
+                          "2":"district_name",
+                          "3":"licncee_details",
+                          "4":"licncee_address",
+                          "5":"date_issue",
+                          "6":"category_weapon",
+                          "7":"date_prchse_weapon",
+                          "8":"mark_no_of_weapon",
+                          "9":"mode_src_prchse_weapon",
+                          "10":"registration_no_weapon",
+                          "11":"details_licnc_authority",
+                          "12":"date_renewal",
+                          "13":"area_validity",
+                          "14":"govt_obtnd_yes_no",
+                          "15":"mention_authority",
+                          "16":"resn_thereof",
+                          "17":"policy_undr_licence",
+                          "18":"qntity_ammuniton_time_issue",
+                          "19":"qntity_ammuniton_used_year",
+                          "20":"police_rep_sought",
+                          "21":"police_rep_recvd"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "SCRB-State_Govt_UTS-COUNT": {
+            "dataRowStart": 4,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "id",
+                "2": "district_name",
+                "3": "count"
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    },
+
+    "57-SCRB": {
+        "SCRB-Against_Publication": {
+            "dataRowStart":4,
+            "skipRows": [],
+            "dataColumns": {
+                        "1": "sno",
+                        "2":"district_name",
+                        "3":"name_newspaper",
+                        "4":"periodical_lang",
+                        "5":"place_publication",
+                        "6":"date_period",
+                        "7":"sec_case_rgstrd",
+                        "8":"forfeiture_copies",
+                        "9":"brief_facts"
+
+            },
+            "dataFormulas": {
+
+            }
+        },
+        "config": {
+            "dataRowStart": 6,
+            "dataRowEnd": 7,
+            "skipRows": [],
+            "dataColumns": {
+                "1": "quarter",
+                "2": "start_month",
+                "3": "end_month",
+                "4": "year"
+            },
+            "dataFormulas": {
+
+            }
+        }
+    }
+
+
+
+}

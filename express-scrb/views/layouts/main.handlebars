@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Crimes Index</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/export.css">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <scrip src="/js/jquery.file.downloade.js"></script>
+
+</head>
+
+<body style="background-color: #f5f5f5;">
+  {{#if login}} {{else}}
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">
+                  <img src="http://placehold.it/150x50&amp;text=Logo" alt="">
+              </a>-->
+        <a class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+          <img style="max-width:140px; margin-top: -26px;" src="cid_ap_logo.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="{{#if dashboard}}active{{/if}}"><a href="/dashboard">UNIT WISE CRIME DATA</a></li>
+          <li class="{{#if distrcts}}active{{/if}}"><a href="/distrcts">RANGE - ZONE CRIME DATA</a></li>
+          <li class="{{#if comparision}}active{{/if}}"><a href="/crimes">LOWEST - HIGHEST</a></li>
+          <li class="{{#if trendline}}active{{/if}}"><a href="/trendline">TREND LINE</a></li>
+          <!--<li><a href="#">Reports By State</a></li>
+          <li><a href="#">Reports By Month</a></li>
+          <li><a href="#">Reports By Year</a></li>-->
+          <li><a href="/logout">Logout </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {{/if}} {{{body}}}
+
+</body>
+<script src="/js/amcharts.js"></script>
+<script src="/js/serial.js"></script>
+<script src="/js/pie.js"></script>
+<script src="/js/light.js"></script>
+<script src="/js/dark.js"></script>
+<script src="/js/black.js"></script>
+<script src="/js/none.js"></script>
+<script src="/js/export.js"></script>
+<script src="/js/fabric.js"></script>
+<script src="/js/serb.js"></script>
+<script src="/js/underscore.js"></script>
+
+</html>

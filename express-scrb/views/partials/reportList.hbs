@@ -1,0 +1,26 @@
+<!-- List of reports for table -->
+
+<table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>District No</th>
+                  <th>District Name</th>
+                  <th>REP.NO.</th>
+                  <th>Date and Time</th>
+                  <th>Download</th>
+                  <th>Reverse</th>
+                </tr>
+              </thead>
+              <tbody id="uploadedStatementsBody">
+              {{#each reports}}
+                <tr>
+                  <td>{{district_id}}</td>
+                  <td>{{district_name}}</td>
+                  <td>{{report_number}}</td>
+                  <td>{{updated_date}}</td>
+                  <td>  <a href="/data/download?path={{path_report}}" download> Download</a></td>
+                  <td>  <button class="btn btn-sm btn-warning" onClick="changeMonthlyReportStatus({{id}},{{uploadedUserId}})">change</button> </td>
+                </tr>
+              {{/each}}               
+              </tbody>
+</table>
